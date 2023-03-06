@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/Users/bennysun/Installations
 exec_prefix=${prefix}
 
 Name: Eigen3

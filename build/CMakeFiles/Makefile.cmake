@@ -138,6 +138,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/Platform/UnixPaths.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+  "/opt/homebrew/share/cmake/pybind11/pybind11Config.cmake"
+  "/opt/homebrew/share/cmake/pybind11/pybind11ConfigVersion.cmake"
   "/usr/local/share/ifopt/cmake/ifopt-config-version.cmake"
   "/usr/local/share/ifopt/cmake/ifopt-config.cmake"
   "/usr/local/share/ifopt/cmake/ifopt_core-targets-noconfig.cmake"

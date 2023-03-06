@@ -184,7 +184,7 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/Users/bennysun/Installations
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -710,6 +710,9 @@ MPFR_INCLUDES:PATH=/opt/homebrew/include
 //Path to a library.
 MPFR_LIBRARIES:FILEPATH=/opt/homebrew/lib/libmpfr.dylib
 
+//No help, variable specified on the command line.
+MUQ_USE_PYTHON:UNINITIALIZED=ON
+
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework
 
@@ -762,7 +765,7 @@ PYBIND11_SIMPLE_GIL_MANAGEMENT:BOOL=OFF
 PYBIND11_TEST:BOOL=OFF
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/Users/bennysun/opt/anaconda3/python.app/Contents/MacOS/python
+PYTHON_EXECUTABLE:FILEPATH=/Users/bennysun/opt/anaconda3/bin/python
 
 //Path to a library.
 PYTHON_LIBRARY:FILEPATH=/Users/bennysun/opt/anaconda3/lib/libpython3.9.dylib
@@ -1204,11 +1207,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_MPFR:INTERNAL=[/opt/homebrew/include][/opt/homebrew
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework][c ][v()]
 //Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/bennysun/opt/anaconda3/python.app/Contents/MacOS/python3.9.7
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/bennysun/opt/anaconda3/bin/python3.9.7
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/homebrew/bin/pkg-config][v0.29.2()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/bennysun/opt/anaconda3/python.app/Contents/MacOS/python][v3.9.7(3.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/bennysun/opt/anaconda3/bin/python][v3.9.7(3.6)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GITCOMMAND
@@ -1336,7 +1339,7 @@ PKG_FFTW_fftw3_VERSION:INTERNAL=
 PYBIND11_INCLUDE_DIR:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
-PYTHON_INCLUDE_DIRS:INTERNAL=/Users/bennysun/opt/anaconda3/python.app/Contents/include/python3.9
+PYTHON_INCLUDE_DIRS:INTERNAL=/Users/bennysun/opt/anaconda3/include/python3.9
 PYTHON_IS_DEBUG:INTERNAL=0
 PYTHON_LIBRARIES:INTERNAL=/Users/bennysun/opt/anaconda3/lib/libpython3.9.dylib
 //ADVANCED property for variable: PYTHON_LIBRARY
@@ -1374,7 +1377,7 @@ _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/bennysun/Installations
 _PC_IPOPT_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
 _PC_IPOPT_CFLAGS_I:INTERNAL=
 _PC_IPOPT_CFLAGS_OTHER:INTERNAL=
@@ -1423,7 +1426,7 @@ pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located
 pybind11_INCLUDE_DIR:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include;/Users/bennysun/opt/anaconda3/python.app/Contents/include/python3.9
+pybind11_INCLUDE_DIRS:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include;/Users/bennysun/opt/anaconda3/include/python3.9
 //Test standard_math_library_linked_to_automatically
 standard_math_library_linked_to_automatically:INTERNAL=1
 

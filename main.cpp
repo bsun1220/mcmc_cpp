@@ -8,6 +8,7 @@
 #include <ifopt/constraint_set.h>
 #include <ifopt/problem.h>
 #include <ifopt/ipopt_solver.h>
+#include <pybind11/pybind11.h>
 using namespace std;
 using namespace Eigen;
 

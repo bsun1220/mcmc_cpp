@@ -17295,29 +17295,29 @@ ifopt_ipopt-example/fast:
 	$(MAKE) $(MAKESILENT) -f external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt-example.dir/build.make external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt-example.dir/build
 .PHONY : ifopt_ipopt-example/fast
 
-ifopt_test.o: ifopt_test.cpp.o
-.PHONY : ifopt_test.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-ifopt_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/ifopt_test.cpp.o
-.PHONY : ifopt_test.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-ifopt_test.i: ifopt_test.cpp.i
-.PHONY : ifopt_test.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-ifopt_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/ifopt_test.cpp.i
-.PHONY : ifopt_test.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-ifopt_test.s: ifopt_test.cpp.s
-.PHONY : ifopt_test.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-ifopt_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/ifopt_test.cpp.s
-.PHONY : ifopt_test.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -18649,9 +18649,9 @@ help:
 	@echo "... zblat2"
 	@echo "... zblat3"
 	@echo "... zerosized"
-	@echo "... ifopt_test.o"
-	@echo "... ifopt_test.i"
-	@echo "... ifopt_test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

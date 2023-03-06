@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "dense": "cpp",
         "matrixfunctions": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "core": "cpp"
     }
 }

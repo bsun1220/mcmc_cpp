@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/Users/bennysun/Installations")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libifopt_ipopt.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_core"
-      -add_rpath "/usr/local/lib"
+      -add_rpath "/Users/bennysun/Installations/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libifopt_ipopt.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libifopt_ipopt.dylib")
@@ -61,7 +61,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_ipopt"
       -delete_rpath "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_core"
-      -add_rpath "/usr/local/lib"
+      -add_rpath "/Users/bennysun/Installations/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ifopt/ifopt_ipopt-example")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ifopt/ifopt_ipopt-example")

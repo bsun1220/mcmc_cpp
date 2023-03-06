@@ -5,6 +5,7 @@
 #include <ifopt/ipopt_solver.h>
 #include <iostream>
 #include "common.hpp"
+#include <pybind11/pybind11.h>
 
 using namespace ifopt;
 using namespace std;

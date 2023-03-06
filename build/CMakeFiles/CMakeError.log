@@ -1,68 +1,68 @@
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
-Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9xKJIG
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-xfeMS3
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_282de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_282de.dir/build.make CMakeFiles/cmTC_282de.dir/build
-Building CXX object CMakeFiles/cmTC_282de.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -Wlogical-op -MD -MT CMakeFiles/cmTC_282de.dir/src.cxx.o -MF CMakeFiles/cmTC_282de.dir/src.cxx.o.d -o CMakeFiles/cmTC_282de.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9xKJIG/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8bfb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8bfb.dir/build.make CMakeFiles/cmTC_f8bfb.dir/build
+Building CXX object CMakeFiles/cmTC_f8bfb.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -Wlogical-op -MD -MT CMakeFiles/cmTC_f8bfb.dir/src.cxx.o -MF CMakeFiles/cmTC_f8bfb.dir/src.cxx.o.d -o CMakeFiles/cmTC_f8bfb.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-xfeMS3/src.cxx
 error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
-make[1]: *** [CMakeFiles/cmTC_282de.dir/src.cxx.o] Error 1
-make: *** [cmTC_282de/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_f8bfb.dir/src.cxx.o] Error 1
+make: *** [cmTC_f8bfb/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
-Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QblhOp
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-6EQfkX
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_73c15/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73c15.dir/build.make CMakeFiles/cmTC_73c15.dir/build
-Building CXX object CMakeFiles/cmTC_73c15.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd981 -MD -MT CMakeFiles/cmTC_73c15.dir/src.cxx.o -MF CMakeFiles/cmTC_73c15.dir/src.cxx.o.d -o CMakeFiles/cmTC_73c15.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QblhOp/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e383/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5e383.dir/build.make CMakeFiles/cmTC_5e383.dir/build
+Building CXX object CMakeFiles/cmTC_5e383.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd981 -MD -MT CMakeFiles/cmTC_5e383.dir/src.cxx.o -MF CMakeFiles/cmTC_5e383.dir/src.cxx.o.d -o CMakeFiles/cmTC_5e383.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-6EQfkX/src.cxx
 clang: error: unknown argument: '-wd981'
-make[1]: *** [CMakeFiles/cmTC_73c15.dir/src.cxx.o] Error 1
-make: *** [cmTC_73c15/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_5e383.dir/src.cxx.o] Error 1
+make: *** [cmTC_5e383/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
-Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-1RmljX
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-BcEg30
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_21363/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_21363.dir/build.make CMakeFiles/cmTC_21363.dir/build
-Building CXX object CMakeFiles/cmTC_21363.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd2304 -MD -MT CMakeFiles/cmTC_21363.dir/src.cxx.o -MF CMakeFiles/cmTC_21363.dir/src.cxx.o.d -o CMakeFiles/cmTC_21363.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-1RmljX/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ce1d6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ce1d6.dir/build.make CMakeFiles/cmTC_ce1d6.dir/build
+Building CXX object CMakeFiles/cmTC_ce1d6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd2304 -MD -MT CMakeFiles/cmTC_ce1d6.dir/src.cxx.o -MF CMakeFiles/cmTC_ce1d6.dir/src.cxx.o.d -o CMakeFiles/cmTC_ce1d6.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-BcEg30/src.cxx
 clang: error: unknown argument: '-wd2304'
-make[1]: *** [CMakeFiles/cmTC_21363.dir/src.cxx.o] Error 1
-make: *** [cmTC_21363/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ce1d6.dir/src.cxx.o] Error 1
+make: *** [cmTC_ce1d6/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
-Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-XOnmsa
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-J48juH
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_00c6a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00c6a.dir/build.make CMakeFiles/cmTC_00c6a.dir/build
-Building CXX object CMakeFiles/cmTC_00c6a.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -strict-ansi -MD -MT CMakeFiles/cmTC_00c6a.dir/src.cxx.o -MF CMakeFiles/cmTC_00c6a.dir/src.cxx.o.d -o CMakeFiles/cmTC_00c6a.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-XOnmsa/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_10a36/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_10a36.dir/build.make CMakeFiles/cmTC_10a36.dir/build
+Building CXX object CMakeFiles/cmTC_10a36.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -strict-ansi -MD -MT CMakeFiles/cmTC_10a36.dir/src.cxx.o -MF CMakeFiles/cmTC_10a36.dir/src.cxx.o.d -o CMakeFiles/cmTC_10a36.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-J48juH/src.cxx
 clang: error: unknown argument: '-strict-ansi'
-make[1]: *** [CMakeFiles/cmTC_00c6a.dir/src.cxx.o] Error 1
-make: *** [cmTC_00c6a/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_10a36.dir/src.cxx.o] Error 1
+make: *** [cmTC_10a36/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP failed with the following output:
-Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-cPllzH
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-49qho5
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_83082/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_83082.dir/build.make CMakeFiles/cmTC_83082.dir/build
-Building CXX object CMakeFiles/cmTC_83082.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -fopenmp -MD -MT CMakeFiles/cmTC_83082.dir/src.cxx.o -MF CMakeFiles/cmTC_83082.dir/src.cxx.o.d -o CMakeFiles/cmTC_83082.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-cPllzH/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9f632/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f632.dir/build.make CMakeFiles/cmTC_9f632.dir/build
+Building CXX object CMakeFiles/cmTC_9f632.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -fopenmp -MD -MT CMakeFiles/cmTC_9f632.dir/src.cxx.o -MF CMakeFiles/cmTC_9f632.dir/src.cxx.o.d -o CMakeFiles/cmTC_9f632.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-49qho5/src.cxx
 clang: error: unsupported option '-fopenmp'
-make[1]: *** [CMakeFiles/cmTC_83082.dir/src.cxx.o] Error 1
-make: *** [cmTC_83082/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_9f632.dir/src.cxx.o] Error 1
+make: *** [cmTC_9f632/fast] Error 2
 
 
 Source file was:
