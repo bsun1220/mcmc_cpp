@@ -2,25 +2,42 @@
 #include "dikin_walk.hpp"
 #include "john_walk.hpp"
 #include "dikinls_walk.hpp"
-#include "central.cpp"
+#include "common.hpp"
+
+MatrixXd make_full_rank(MatrixXd mat){
+    if(mat.rows() == mat.cols()){
+        return mat; 
+    }
+    FullPivHouseholderQR <MatrixXd> qr(mat.cols(), mat.rows());
+    qr.compute(mat.transpose());
+    MatrixXd q = qr.matrixQ();
+    MatrixXd r = qr.matrixQR().triangularView<Upper>();
+
+    MatrixXd iden = MatrixXd::Identity(q.rows(), q.rows());
+    MatrixXd new_r (q.rows(), q.rows());
+    for(int i = 0; i < r.cols(); i++){
+        new_r.col(i) = r.col(i);
+    }
+    for(int i = r.cols(); i < q.rows(); i++){
+        new_r.col(i) = iden.col(i);
+    }
+    return (q * new_r).transpose();
+}
 
 int main(){
     srand(time(NULL));
 
-    MatrixXd A(3,2);
-
-    A << -1, 0,
-        0, -1,
-        1, 1;
-    
     VectorXd b(3);
     b << 0,0, 1;
-    int a = 1;
 
-    VectorXd x = find_central_point(A, b, 10000, 0.00001, 10000);
+   // MatrixXd A (3,4);
+   // A << 1, 0, 1, 0, -1, 0, 0, 1, 0, 1, 0, 0;
+   MatrixXd A(5,7);
+   A << 1,0,0,1,0,0,0,
+        -1,0,0,0,1,0,0,
+        0,1,0,0,0,1,0,
+        0,-1,0,0,0,0,1,
+        0,0,1,0,0,0,0;
 
-    DikinLSWalk walk(A, b, 1.0);
-
-    cout << walk.generate_complete_walk(1000, x) << endl;
-
+    cout << make_full_rank(A) << endl;
 }

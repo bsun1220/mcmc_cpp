@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MCMC.dir/main.cpp.o"
-  "CMakeFiles/MCMC.dir/main.cpp.o.d"
+  "CMakeFiles/MCMC.dir/test.cpp.o"
+  "CMakeFiles/MCMC.dir/test.cpp.o.d"
   "MCMC"
   "MCMC.pdb"
 )

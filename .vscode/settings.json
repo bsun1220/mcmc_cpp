@@ -5,6 +5,8 @@
         "dense": "cpp",
         "matrixfunctions": "cpp",
         "algorithm": "cpp",
-        "core": "cpp"
+        "core": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
     }
 }

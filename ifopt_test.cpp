@@ -156,13 +156,13 @@ int main(){
 
     MatrixXd newA = equal_conversion(A);
     VectorXd init (4);
-    init << -1,-1,-1,-1;
+    init << 0,0,1,1;
 
     int n = newA.rows();
     int d = newA.cols();
     int x_dim = A.cols();
 
-    int i = 5;
+    int i = 4;
     string name = "var_set1";
 
     Problem lp; 
