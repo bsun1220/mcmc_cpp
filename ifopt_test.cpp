@@ -21,11 +21,11 @@ MatrixXd make_full_rank(MatrixXd mat){
     if(mat.rows() == mat.cols()){
         return mat; 
     }
-    FullPivHouseholderQR <MatrixXd> qr(mat.cols(), mat.rows());
+    HouseholderQR <MatrixXd> qr(mat.cols(), mat.rows());
     qr.compute(mat.transpose());
-    MatrixXd q = qr.matrixQ();
-    MatrixXd r = qr.matrixQR().triangularView<Upper>();
-
+    MatrixXd q = qr.householderQ();
+    MatrixXd r = q.inverse() * mat.transpose();
+ 
     MatrixXd iden = MatrixXd::Identity(q.rows(), q.rows());
     MatrixXd new_r (q.rows(), q.rows());
     for(int i = 0; i < r.cols(); i++){
@@ -34,12 +34,15 @@ MatrixXd make_full_rank(MatrixXd mat){
     for(int i = r.cols(); i < q.rows(); i++){
         new_r.col(i) = iden.col(i);
     }
-    MatrixXd ans = q * new_r;
+
+    MatrixXd ans = (q * new_r).transpose();
+    
     for(int i = 0; i < ans.rows(); i++){
         for(int j = 0; j < ans.cols(); j++){
             ans.coeffRef(i,j) = round_up(ans.coeffRef(i,j), 10);
         }
     }
+    
 
     return ans;
 }
@@ -75,6 +78,7 @@ class ExConstraint1 : public ConstraintSet{
     MatrixXd A;
     ExConstraint1(int num_dim, string name, MatrixXd A_param) : ConstraintSet(num_dim, name){
         // A is d by n matrix
+
         A = A_param;
         
     }
@@ -93,7 +97,7 @@ class ExConstraint1 : public ConstraintSet{
     VecBound GetBounds() const override{
         VecBound b(GetRows());
         for(int i = 0; i < A.rows(); i++){
-            b.at(i) = Bounds(-1 * inf, 0);
+            b.at(i) = Bounds(-inf, 0);
         }
         return b;
     }
@@ -108,6 +112,7 @@ class ExConstraint2 : public ConstraintSet{
     ExConstraint2(int num_dim, string name, MatrixXd A_param, VectorXd b_param) : ConstraintSet(num_dim, name){
         A = A_param;
         b = b_param;
+
     }
 
     VectorXd GetValues() const override{
@@ -186,12 +191,9 @@ int main(){
     eqA.row(x_dim) = newA.col(ind);
     eqA.row(x_dim + 1) = b;
 
-    cout << eqA << endl;
     eqA = make_full_rank(eqA);
-    cout << "------" << endl;
-    cout << eqA << endl;
-    cout << "------" << endl;
 
+    
     VectorXd eqb = VectorXd::Zero(eqA.rows());
     eqb(x_dim) = 1;
 
@@ -229,13 +231,15 @@ int main(){
     cout << eqb << endl;
     cout << "----------" << endl;
     cout << ineqA * init << endl;
+    
     cout << "-------" << endl;
+    cout << init << endl;
 
     string name = "var_set1";
     Problem lp;
     lp.AddVariableSet(make_shared<ExVariables>(n + 1, name, init));
     lp.AddConstraintSet(make_shared<ExConstraint1>(ineqA.rows(),name,ineqA));
-    lp.AddConstraintSet(make_shared<ExConstraint2>(x_dim + 2,name,eqA, eqb));
+    lp.AddConstraintSet(make_shared<ExConstraint2>(eqA.rows(),name,eqA, eqb));
     lp.AddCostSet(make_shared<ExCost>(name));
     IpoptSolver ipopt;
     ipopt.Solve(lp);
@@ -244,26 +248,6 @@ int main(){
     cout << sol << endl;
 
 
-    /*
-    string name = "var_set1";
-
-    Problem lp; 
     
-    lp.AddVariableSet(make_shared<ExVariables>(n, name, init));
-    
-    lp.AddConstraintSet(make_shared<ExConstraint1>(newA.cols(),name,newA));
-      
-    lp.AddConstraintSet(make_shared<ExConstraint2>(x_dim + 2, name,x_dim, 
-                                                  i, newA, b));
-    
-    lp.AddCostSet(make_shared<ExCost>(name));
-
-    IpoptSolver ipopt;
-    ipopt.Solve(lp);
-    ipopt.SetOption("least_square_init_primal", "yes");
-
-    VectorXd sol = lp.GetOptVariables()->GetValues();
-    cout << sol << endl;
-    */
 
 }

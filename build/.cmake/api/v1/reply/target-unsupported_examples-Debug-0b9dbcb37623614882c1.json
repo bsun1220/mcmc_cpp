@@ -1,0 +1,169 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"ADD_DEPENDENCIES"
+		],
+		"files" : 
+		[
+			"external/eigen/unsupported/doc/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "example_BVH_Example::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "example_EulerAngles::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "example_FFT::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "example_MatrixExponential::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "example_MatrixFunction::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "example_MatrixLogarithm::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "example_MatrixPower::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "example_MatrixPower_optimal::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "example_MatrixSine::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "example_MatrixSinh::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "example_MatrixSquareRoot::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "example_PolynomialSolver1::@1be2c7ad454f752ca163"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "example_PolynomialUtils1::@1be2c7ad454f752ca163"
+		}
+	],
+	"id" : "unsupported_examples::@1be2c7ad454f752ca163",
+	"name" : "unsupported_examples",
+	"paths" : 
+	{
+		"build" : "external/eigen/unsupported/doc/examples",
+		"source" : "external/eigen/unsupported/doc/examples"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

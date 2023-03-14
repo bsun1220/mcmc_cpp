@@ -6,7 +6,7 @@ Fortran_DEFINES =
 
 Fortran_INCLUDES = -I/Users/bennysun/mcmc_cpp/build/external/eigen/blas/testing -I/Users/bennysun/mcmc_cpp/external/eigen/blas/testing -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen
 
-Fortran_FLAGSarm64 = -O3 -DNDEBUG -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
+Fortran_FLAGSarm64 = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
 
-Fortran_FLAGS = -O3 -DNDEBUG -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
+Fortran_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
 

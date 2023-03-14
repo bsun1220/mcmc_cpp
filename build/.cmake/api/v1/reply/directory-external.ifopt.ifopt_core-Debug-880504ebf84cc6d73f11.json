@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/ifopt/ifopt_core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/ifopt/ifopt_core/libifopt_core.dylib"
+			],
+			"targetId" : "ifopt_core::@f7f533b58df339b3774e",
+			"targetIndex" : 697,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/ifopt",
+			"paths" : 
+			[
+				{
+					"from" : "external/ifopt/ifopt_core/include/ifopt",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/ifopt",
+			"paths" : 
+			[
+				"external/ifopt/ifopt_core/test/ifopt/test_vars_constr_cost.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/ifopt/cmake",
+			"exportName" : "ifopt_core-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ifopt_core::@f7f533b58df339b3774e",
+					"index" : 697
+				}
+			],
+			"paths" : 
+			[
+				"external/ifopt/ifopt_core/CMakeFiles/Export/7d53bfe9d28bceee83e859dbc0c0e052/ifopt_core-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/ifopt/ifopt_core",
+		"source" : "external/ifopt/ifopt_core"
+	}
+}

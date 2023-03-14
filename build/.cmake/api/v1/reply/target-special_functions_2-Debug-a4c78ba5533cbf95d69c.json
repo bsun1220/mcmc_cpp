@@ -1,0 +1,184 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/eigen/unsupported/test/special_functions_2"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ei_add_test_internal",
+			"ei_add_test",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"external/eigen/cmake/EigenTesting.cmake",
+			"external/eigen/unsupported/test/CMakeLists.txt",
+			"external/eigen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 366,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5"
+				},
+				{
+					"fragment" : " -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=special_functions  -DEIGEN_TEST_PART_2=1"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/Users/bennysun/mcmc_cpp/build/external/eigen/unsupported/test"
+				},
+				{
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen/unsupported/test"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/bennysun/mcmc_cpp/build/external/eigen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen/unsupported/test/../../test"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen/unsupported/test/../../unsupported"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen/unsupported/test/../../Eigen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bennysun/mcmc_cpp/build/external/eigen/unsupported/test/../../test"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/opt/homebrew/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bennysun/mcmc_cpp/external/eigen/unsupported/test/./mpreal"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "special_functions_2::@ba0ff502cf6303d24257",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "special_functions_2",
+	"nameOnDisk" : "special_functions_2",
+	"paths" : 
+	{
+		"build" : "external/eigen/unsupported/test",
+		"source" : "external/eigen/unsupported/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/eigen/unsupported/test/special_functions.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
