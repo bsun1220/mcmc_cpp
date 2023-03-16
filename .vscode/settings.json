@@ -25,6 +25,18 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "vector": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "__split_buffer": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "complex": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "map": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     }
 }
