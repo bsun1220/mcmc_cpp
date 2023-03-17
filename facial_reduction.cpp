@@ -1,39 +1,4 @@
-#include <ifopt/variable_set.h>
-#include <ifopt/constraint_set.h>
-#include <ifopt/cost_term.h>
-#include <ifopt/problem.h>
-#include <ifopt/ipopt_solver.h>
-#include <iostream>
-#include "common.hpp"
-#include <pybind11/pybind11.h>
-
-using namespace ifopt;
-using namespace std;
-using namespace Eigen;
-
-struct z_result{
-    bool found_sol; 
-    VectorXd z; 
-};
-
-struct fr_result{
-    MatrixXd A;
-    VectorXd b; 
-};
-
-struct problem_result{
-    MatrixXd reduced_A;
-    VectorXd reduced_b; 
-    bool reduced;
-    VectorXd b_tilde;
-    MatrixXd M;
-};
-
-double round_up(double value, int decimal_places) {
-    const double multiplier = std::pow(10.0, decimal_places);
-    return round(value * multiplier) / multiplier;
-}
-
+#include "facial_reduction.hpp"
 
 MatrixXd make_full_rank(MatrixXd mat){
     if(mat.rows() == mat.cols()){
@@ -54,14 +19,13 @@ MatrixXd make_full_rank(MatrixXd mat){
     }
 
     MatrixXd ans = (q * new_r).transpose();
-    
+
     for(int i = 0; i < ans.rows(); i++){
         for(int j = 0; j < ans.cols(); j++){
-            ans.coeffRef(i,j) = round_up(ans.coeffRef(i,j), 10);
+            const double multiplier = std::pow(10.0, 10);
+            ans.coeffRef(i,j) = round(ans.coeffRef(i,j) * multiplier) / multiplier;
         }
     }
-    
-
     return ans;
 }
 
@@ -139,7 +103,10 @@ class ExConstraint2 : public ConstraintSet{
         for(int i = 0; i < A.rows(); i++){
             VectorXd A_row = A.row(i);
             //A row is a n dimensional vector
-            g(i) = round_up(A_row.transpose() * input, 10); 
+            g(i) = A_row.transpose() * input;
+
+            const double multiplier = std::pow(10.0, 10);
+             g(i) = round(g(i) * multiplier) / multiplier;
         }
         return g;
     }
@@ -241,8 +208,10 @@ z_result find_z(MatrixXd newA, VectorXd b, int x_dim){
         lp.AddConstraintSet(make_shared<ExConstraint1>(ineqA.rows(),name,ineqA));
         lp.AddConstraintSet(make_shared<ExConstraint2>(eqA.rows(),name,eqA, eqb));
         lp.AddCostSet(make_shared<ExCost>(name));
+        
         IpoptSolver ipopt;
         ipopt.Solve(lp);
+        ipopt.SetOption("print_level", 0);
 
         VectorXd sol = lp.GetOptVariables()->GetValues();
 
@@ -266,7 +235,8 @@ MatrixXd facial_reduction(VectorXd z){
     int d = z.rows();
     vector<int> indices;
     for(int i = 0; i < d; i++){
-        z(i) = round_up(z(i), 5);
+        const double multiplier = std::pow(10.0, 5);
+        z(i) = round(z(i) * multiplier) / multiplier;
         if(z(i) <= 0) indices.push_back(i);
     }
     MatrixXd matrix (indices.size(), d);
@@ -289,26 +259,28 @@ fr_result entire_facial_reduction_step(MatrixXd A, VectorXd b, int x_dim){
 
     MatrixXd V = facial_reduction(z_ans.z);
     MatrixXd AV = A * V;
-    FullPivLU<MatrixXd> lu(AV.transpose());
-    MatrixXd rref = lu.matrixLU().triangularView<Upper>();
-    VectorXd max_val = rref.rowwise().maxCoeff();
-    VectorXd min_val = rref.rowwise().minCoeff();
+
+    FullPivLU<MatrixXd> lu_decomp(AV.transpose());
+    MatrixXd decomp = lu_decomp.image(AV.transpose());
 
     vector<int> lst; 
-    for(int i = 0; i < max_val.rows(); i++){
-        if (max_val(i) != 0 || min_val(i) != 0){
-            lst.push_back(i);
+    for(int i = 0; i < AV.rows(); i++){
+        for(int j = 0; j< decomp.cols(); j++){
+            if(AV.row(i).transpose().isApprox(decomp.col(j))){
+                lst.push_back(i);
+            }
         }
     }
+
     MatrixXd proj (lst.size(), A.rows());
     for(int i = 0; i < lst.size(); i++){
         VectorXd row = VectorXd::Zero(A.rows());
         row(lst[i]) = 1; 
         proj.row(i) = row; 
     }
-
     A = proj * AV;
     b = proj * b;
+
     return entire_facial_reduction_step(A, b, x_dim);
 }
 

@@ -241,8 +241,10 @@ z_result find_z(MatrixXd newA, VectorXd b, int x_dim){
         lp.AddConstraintSet(make_shared<ExConstraint1>(ineqA.rows(),name,ineqA));
         lp.AddConstraintSet(make_shared<ExConstraint2>(eqA.rows(),name,eqA, eqb));
         lp.AddCostSet(make_shared<ExCost>(name));
+        
         IpoptSolver ipopt;
         ipopt.Solve(lp);
+        ipopt.SetOption("print_level", 0);
 
         VectorXd sol = lp.GetOptVariables()->GetValues();
 
@@ -289,26 +291,28 @@ fr_result entire_facial_reduction_step(MatrixXd A, VectorXd b, int x_dim){
 
     MatrixXd V = facial_reduction(z_ans.z);
     MatrixXd AV = A * V;
-    FullPivLU<MatrixXd> lu(AV.transpose());
-    MatrixXd rref = lu.matrixLU().triangularView<Upper>();
-    VectorXd max_val = rref.rowwise().maxCoeff();
-    VectorXd min_val = rref.rowwise().minCoeff();
+
+    FullPivLU<MatrixXd> lu_decomp(AV.transpose());
+    MatrixXd decomp = lu_decomp.image(AV.transpose());
 
     vector<int> lst; 
-    for(int i = 0; i < max_val.rows(); i++){
-        if (max_val(i) != 0 || min_val(i) != 0){
-            lst.push_back(i);
+    for(int i = 0; i < AV.rows(); i++){
+        for(int j = 0; j< decomp.cols(); j++){
+            if(AV.row(i).transpose().isApprox(decomp.col(j))){
+                lst.push_back(i);
+            }
         }
     }
+
     MatrixXd proj (lst.size(), A.rows());
     for(int i = 0; i < lst.size(); i++){
         VectorXd row = VectorXd::Zero(A.rows());
         row(lst[i]) = 1; 
         proj.row(i) = row; 
     }
-
     A = proj * AV;
     b = proj * b;
+
     return entire_facial_reduction_step(A, b, x_dim);
 }
 
@@ -362,20 +366,30 @@ problem_result reduce_problem(MatrixXd A, VectorXd b){
 
 int main(){
     
-    /*
+    
     MatrixXd A (6,3);
     A << 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1;
     VectorXd b(6);
     b << 1,1,1,1,0,0;
-    */
     
     
+    /*
     MatrixXd A (4,2);
     A << 1, 0, -1, 0, 0, 1, 0, -1;
     VectorXd b(4);
-    b << 2, 2, 0, 0;
+    b << 2, 2, 0, 0;*/
+    
+   /*
+    MatrixXd A(6,3);
+    A << 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1;
+    VectorXd b(6);
+    b << 1, 1, 0, 0, 0, 0;
+    */
+
     
     problem_result ans = reduce_problem(A, b);
+
+    
     cout << ans.reduced_A << endl;
     cout << "------" << endl;
     cout << ans.reduced_b << endl;

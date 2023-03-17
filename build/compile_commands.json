@@ -1,8 +1,13 @@
 [
 {
   "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/ifopt_test.cpp.o -c /Users/bennysun/mcmc_cpp/ifopt_test.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/ifopt_test.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/main.cpp.o -c /Users/bennysun/mcmc_cpp/main.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/main.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/facial_reduction.cpp.o -c /Users/bennysun/mcmc_cpp/facial_reduction.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/facial_reduction.cpp"
 },
 {
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/doc/examples",

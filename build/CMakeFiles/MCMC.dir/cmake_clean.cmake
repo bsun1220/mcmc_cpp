@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MCMC.dir/ifopt_test.cpp.o"
-  "CMakeFiles/MCMC.dir/ifopt_test.cpp.o.d"
+  "CMakeFiles/MCMC.dir/facial_reduction.cpp.o"
+  "CMakeFiles/MCMC.dir/facial_reduction.cpp.o.d"
+  "CMakeFiles/MCMC.dir/main.cpp.o"
+  "CMakeFiles/MCMC.dir/main.cpp.o.d"
   "MCMC"
   "MCMC.pdb"
 )

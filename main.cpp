@@ -1,21 +1,15 @@
 
-#include <iostream>
-#include <algorithm>
-#include <Eigen/Dense>
-#include <unsupported/Eigen/MatrixFunctions>
-#include <ifopt/bounds.h>
-#include <ifopt/variable_set.h>
-#include <ifopt/constraint_set.h>
-#include <ifopt/problem.h>
-#include <ifopt/ipopt_solver.h>
-#include <pybind11/pybind11.h>
-using namespace std;
-using namespace Eigen;
+#include "facial_reduction.hpp"
 
 int main(){
-    int t = 1;
-    VectorXd b(2);
-    b << 0, 2;
-    cout << b << endl;
-    ifopt::Problem nlp;
+    MatrixXd A (6,3);
+    A << 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1;
+    VectorXd b(6);
+    b << 1,1,1,1,0,0;
+
+    problem_result fr = reduce_problem(A, b);
+    cout << fr.reduced_A << endl;
+    cout << fr.reduced_b << endl;
+
+
 }

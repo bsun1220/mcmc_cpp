@@ -69,33 +69,49 @@ include CMakeFiles/MCMC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MCMC.dir/flags.make
 
-CMakeFiles/MCMC.dir/ifopt_test.cpp.o: CMakeFiles/MCMC.dir/flags.make
-CMakeFiles/MCMC.dir/ifopt_test.cpp.o: /Users/bennysun/mcmc_cpp/ifopt_test.cpp
-CMakeFiles/MCMC.dir/ifopt_test.cpp.o: CMakeFiles/MCMC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MCMC.dir/ifopt_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MCMC.dir/ifopt_test.cpp.o -MF CMakeFiles/MCMC.dir/ifopt_test.cpp.o.d -o CMakeFiles/MCMC.dir/ifopt_test.cpp.o -c /Users/bennysun/mcmc_cpp/ifopt_test.cpp
+CMakeFiles/MCMC.dir/main.cpp.o: CMakeFiles/MCMC.dir/flags.make
+CMakeFiles/MCMC.dir/main.cpp.o: /Users/bennysun/mcmc_cpp/main.cpp
+CMakeFiles/MCMC.dir/main.cpp.o: CMakeFiles/MCMC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MCMC.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MCMC.dir/main.cpp.o -MF CMakeFiles/MCMC.dir/main.cpp.o.d -o CMakeFiles/MCMC.dir/main.cpp.o -c /Users/bennysun/mcmc_cpp/main.cpp
 
-CMakeFiles/MCMC.dir/ifopt_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCMC.dir/ifopt_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bennysun/mcmc_cpp/ifopt_test.cpp > CMakeFiles/MCMC.dir/ifopt_test.cpp.i
+CMakeFiles/MCMC.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCMC.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bennysun/mcmc_cpp/main.cpp > CMakeFiles/MCMC.dir/main.cpp.i
 
-CMakeFiles/MCMC.dir/ifopt_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCMC.dir/ifopt_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bennysun/mcmc_cpp/ifopt_test.cpp -o CMakeFiles/MCMC.dir/ifopt_test.cpp.s
+CMakeFiles/MCMC.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCMC.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bennysun/mcmc_cpp/main.cpp -o CMakeFiles/MCMC.dir/main.cpp.s
+
+CMakeFiles/MCMC.dir/facial_reduction.cpp.o: CMakeFiles/MCMC.dir/flags.make
+CMakeFiles/MCMC.dir/facial_reduction.cpp.o: /Users/bennysun/mcmc_cpp/facial_reduction.cpp
+CMakeFiles/MCMC.dir/facial_reduction.cpp.o: CMakeFiles/MCMC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MCMC.dir/facial_reduction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MCMC.dir/facial_reduction.cpp.o -MF CMakeFiles/MCMC.dir/facial_reduction.cpp.o.d -o CMakeFiles/MCMC.dir/facial_reduction.cpp.o -c /Users/bennysun/mcmc_cpp/facial_reduction.cpp
+
+CMakeFiles/MCMC.dir/facial_reduction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCMC.dir/facial_reduction.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bennysun/mcmc_cpp/facial_reduction.cpp > CMakeFiles/MCMC.dir/facial_reduction.cpp.i
+
+CMakeFiles/MCMC.dir/facial_reduction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCMC.dir/facial_reduction.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bennysun/mcmc_cpp/facial_reduction.cpp -o CMakeFiles/MCMC.dir/facial_reduction.cpp.s
 
 # Object files for target MCMC
 MCMC_OBJECTS = \
-"CMakeFiles/MCMC.dir/ifopt_test.cpp.o"
+"CMakeFiles/MCMC.dir/main.cpp.o" \
+"CMakeFiles/MCMC.dir/facial_reduction.cpp.o"
 
 # External object files for target MCMC
 MCMC_EXTERNAL_OBJECTS =
 
-MCMC: CMakeFiles/MCMC.dir/ifopt_test.cpp.o
+MCMC: CMakeFiles/MCMC.dir/main.cpp.o
+MCMC: CMakeFiles/MCMC.dir/facial_reduction.cpp.o
 MCMC: CMakeFiles/MCMC.dir/build.make
 MCMC: /usr/local/lib/libifopt_ipopt.dylib
 MCMC: /usr/local/lib/libifopt_core.dylib
 MCMC: CMakeFiles/MCMC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MCMC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MCMC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MCMC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
