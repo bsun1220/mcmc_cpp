@@ -210,8 +210,9 @@ z_result find_z(MatrixXd newA, VectorXd b, int x_dim){
         lp.AddCostSet(make_shared<ExCost>(name));
         
         IpoptSolver ipopt;
-        ipopt.Solve(lp);
         ipopt.SetOption("print_level", 0);
+        ipopt.SetOption("sb", "yes");
+        ipopt.Solve(lp);
 
         VectorXd sol = lp.GetOptVariables()->GetValues();
 
@@ -312,7 +313,7 @@ problem_result reduce_problem(MatrixXd A, VectorXd b){
     MatrixXd newA = equal_conversion(A);
     int x_dim = A.cols();
     fr_result res = entire_facial_reduction_step(newA, b, x_dim);
-    if (res.A.cols() == A.cols() && res.A.rows() == A.rows()){
+    if (res.A.cols() == newA.cols() && res.A.rows() == newA.rows()){
         problem_result ans;
         ans.reduced = false; 
         ans.reduced_A = A;

@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MCMC.dir/barrier_walk.cpp.o"
+  "CMakeFiles/MCMC.dir/barrier_walk.cpp.o.d"
+  "CMakeFiles/MCMC.dir/central.cpp.o"
+  "CMakeFiles/MCMC.dir/central.cpp.o.d"
+  "CMakeFiles/MCMC.dir/dikin_walk.cpp.o"
+  "CMakeFiles/MCMC.dir/dikin_walk.cpp.o.d"
   "CMakeFiles/MCMC.dir/facial_reduction.cpp.o"
   "CMakeFiles/MCMC.dir/facial_reduction.cpp.o.d"
   "CMakeFiles/MCMC.dir/main.cpp.o"

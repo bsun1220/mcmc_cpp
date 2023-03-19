@@ -10,6 +10,21 @@
   "file": "/Users/bennysun/mcmc_cpp/facial_reduction.cpp"
 },
 {
+  "directory": "/Users/bennysun/mcmc_cpp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/central.cpp.o -c /Users/bennysun/mcmc_cpp/central.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/central.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/dikin_walk.cpp.o -c /Users/bennysun/mcmc_cpp/dikin_walk.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/dikin_walk.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/barrier_walk.cpp.o -c /Users/bennysun/mcmc_cpp/barrier_walk.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/barrier_walk.cpp"
+},
+{
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/doc/examples",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_MAKING_DOCS -I/Users/bennysun/mcmc_cpp/build/external/eigen/doc/examples -I/Users/bennysun/mcmc_cpp/external/eigen/doc/examples -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/CustomizingEigen_Inheritance.dir/CustomizingEigen_Inheritance.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/doc/examples/CustomizingEigen_Inheritance.cpp",
   "file": "/Users/bennysun/mcmc_cpp/external/eigen/doc/examples/CustomizingEigen_Inheritance.cpp"

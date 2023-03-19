@@ -1,6 +1,12 @@
 
 #include "barrier_walk.hpp"
 
+void BarrierWalk::initialize(MatrixXd A_p, VectorXd b_p, float r){
+    A = A_p;
+    b = b_p;
+    r = r; 
+}
+
 void BarrierWalk::set_ts(float a){
     term_sample = a; 
 }

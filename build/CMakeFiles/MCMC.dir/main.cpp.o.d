@@ -1,5 +1,4 @@
 CMakeFiles/MCMC.dir/main.cpp.o: /Users/bennysun/mcmc_cpp/main.cpp \
-  /Users/bennysun/mcmc_cpp/facial_reduction.hpp \
   /Users/bennysun/mcmc_cpp/common.hpp \
   /Users/bennysun/mcmc_cpp/external/eigen/Eigen/Dense \
   /Users/bennysun/mcmc_cpp/external/eigen/Eigen/Core \
@@ -615,6 +614,13 @@ CMakeFiles/MCMC.dir/main.cpp.o: /Users/bennysun/mcmc_cpp/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
+  /Users/bennysun/mcmc_cpp/john_walk.hpp \
+  /Users/bennysun/mcmc_cpp/barrier_walk.hpp \
+  /Users/bennysun/mcmc_cpp/dikinls_walk.hpp \
+  /Users/bennysun/mcmc_cpp/vaidya_walk.hpp \
+  /Users/bennysun/mcmc_cpp/dikin_walk.hpp \
+  /Users/bennysun/mcmc_cpp/central.hpp \
+  /Users/bennysun/mcmc_cpp/facial_reduction.hpp \
   /usr/local/include/ifopt/variable_set.h \
   /usr/local/include/ifopt/composite.h \
   /Users/bennysun/mcmc_cpp/external/eigen/Eigen/Sparse \

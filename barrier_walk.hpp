@@ -10,12 +10,12 @@ class BarrierWalk{
         float term_sample{};
         float term_density{};
 
-        BarrierWalk(MatrixXd A_p, VectorXd b_p){
-            A = A_p;
-            b = b_p;
+        BarrierWalk(){
             term_sample = 0;
             term_density = 0;
         }
+
+        void initialize(MatrixXd A_p, VectorXd b_p, float r);
 
         void set_ts(float a);
 

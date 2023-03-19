@@ -5006,12 +5006,12 @@ external/eigen/doc/examples/CMakeFiles/QuickStart_example2_fixed.dir/clean:
 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/build.make external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/build.make external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target TemplateKeyword_flexible"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=2 "Built target TemplateKeyword_flexible"
 .PHONY : external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/rule
@@ -5032,12 +5032,12 @@ external/eigen/doc/examples/CMakeFiles/TemplateKeyword_flexible.dir/clean:
 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/build.make external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/build.make external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=2 "Built target TemplateKeyword_simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target TemplateKeyword_simple"
 .PHONY : external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/TemplateKeyword_simple.dir/rule
@@ -5318,12 +5318,12 @@ external/eigen/doc/examples/CMakeFiles/TutorialLinAlgSetThreshold.dir/clean:
 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target Tutorial_ArrayClass_accessors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=3 "Built target Tutorial_ArrayClass_accessors"
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_accessors.dir/rule
@@ -5370,12 +5370,12 @@ external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_addition.dir/clean:
 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=3 "Built target Tutorial_ArrayClass_cwise_other"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target Tutorial_ArrayClass_cwise_other"
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/rule
@@ -5656,12 +5656,12 @@ external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_b
 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=4 "Built target Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple"
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/rule
@@ -5682,12 +5682,12 @@ external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_b
 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/build.make external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=4 "Built target Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise"
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.dir/rule
@@ -5994,12 +5994,12 @@ external/eigen/doc/examples/CMakeFiles/class_CwiseBinaryOp.dir/clean:
 external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/build.make external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/build.make external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target class_CwiseUnaryOp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=13 "Built target class_CwiseUnaryOp"
 .PHONY : external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp.dir/rule
@@ -6046,12 +6046,12 @@ external/eigen/doc/examples/CMakeFiles/class_CwiseUnaryOp_ptrfun.dir/clean:
 external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/build.make external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/build.make external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=13 "Built target class_FixedBlock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target class_FixedBlock"
 .PHONY : external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/class_FixedBlock.dir/rule
@@ -6306,12 +6306,12 @@ external/eigen/doc/examples/CMakeFiles/tut_arithmetic_add_sub.dir/clean:
 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/build.make external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/build.make external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target tut_arithmetic_dot_cross"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=96 "Built target tut_arithmetic_dot_cross"
 .PHONY : external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/rule
@@ -6332,12 +6332,12 @@ external/eigen/doc/examples/CMakeFiles/tut_arithmetic_dot_cross.dir/clean:
 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/build.make external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/build.make external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=96 "Built target tut_arithmetic_matrix_mul"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target tut_arithmetic_matrix_mul"
 .PHONY : external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/examples/CMakeFiles/tut_arithmetic_matrix_mul.dir/rule
@@ -6992,12 +6992,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_ComplexEigenSolver_eigenvectors.d
 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_ComplexSchur_compute"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=14 "Built target compile_ComplexSchur_compute"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/rule
@@ -7018,12 +7018,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_compute.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=14 "Built target compile_ComplexSchur_matrixT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_ComplexSchur_matrixT"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_ComplexSchur_matrixT.dir/rule
@@ -7304,12 +7304,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_not.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_boolean_or"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=15 "Built target compile_Cwise_boolean_or"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/rule
@@ -7330,12 +7330,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_or.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=15 "Built target compile_Cwise_boolean_xor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_boolean_xor"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_boolean_xor.dir/rule
@@ -7616,12 +7616,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_inverse.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_isFinite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=16 "Built target compile_Cwise_isFinite"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/rule
@@ -7642,12 +7642,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isFinite.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=16 "Built target compile_Cwise_isInf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_isInf"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_isInf.dir/rule
@@ -7928,12 +7928,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_not_equal.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_plus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=17 "Built target compile_Cwise_plus"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus.dir/rule
@@ -7980,12 +7980,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_plus_equal.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=17 "Built target compile_Cwise_pow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_pow"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_pow.dir/rule
@@ -8266,12 +8266,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_square.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_tan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=18 "Built target compile_Cwise_tan"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/rule
@@ -8292,12 +8292,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=18 "Built target compile_Cwise_tanh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Cwise_tanh"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Cwise_tanh.dir/rule
@@ -8578,12 +8578,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_compute.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_EigenSolver_eigenvalues"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=19 "Built target compile_EigenSolver_eigenvalues"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/rule
@@ -8604,12 +8604,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvalues.dir/clean
 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=19 "Built target compile_EigenSolver_eigenvectors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_EigenSolver_eigenvectors"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_EigenSolver_eigenvectors.dir/rule
@@ -8890,12 +8890,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_householderQ.dir/cl
 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_HouseholderQR_solve"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=20 "Built target compile_HouseholderQR_solve"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/rule
@@ -8916,12 +8916,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_HouseholderQR_solve.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=20 "Built target compile_HouseholderSequence_HouseholderSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_HouseholderSequence_HouseholderSequence"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_HouseholderSequence_HouseholderSequence.dir/rule
@@ -9202,12 +9202,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Map_inner_stride.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Map_outer_stride"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=21 "Built target compile_Map_outer_stride"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Map_outer_stride.dir/rule
@@ -9254,12 +9254,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Map_placement_new.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=21 "Built target compile_Map_simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Map_simple"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Map_simple.dir/rule
@@ -9540,12 +9540,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomLeftCorner_int_i
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_bottomRightCorner_int_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=22 "Built target compile_MatrixBase_bottomRightCorner_int_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_int.dir/rule
@@ -9566,12 +9566,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRightCorner_int_
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=22 "Built target compile_MatrixBase_bottomRows_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_bottomRows_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_bottomRows_int.dir/rule
@@ -9852,12 +9852,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMax.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_cwiseMin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=23 "Built target compile_MatrixBase_cwiseMin"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/rule
@@ -9878,12 +9878,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseMin.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=23 "Built target compile_MatrixBase_cwiseNotEqual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_cwiseNotEqual"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_cwiseNotEqual.dir/rule
@@ -10164,12 +10164,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_eval.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_fixedBlock_int_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=24 "Built target compile_MatrixBase_fixedBlock_int_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir/rule
@@ -10190,12 +10190,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_fixedBlock_int_int.dir
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=24 "Built target compile_MatrixBase_hnormalized"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_hnormalized"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_hnormalized.dir/rule
@@ -10476,12 +10476,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_isZero.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_leftCols_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=25 "Built target compile_MatrixBase_leftCols_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_leftCols_int.dir/rule
@@ -10528,12 +10528,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_noalias.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=25 "Built target compile_MatrixBase_ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_ones"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_ones.dir/rule
@@ -10814,12 +10814,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_reverse.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_rightCols_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=26 "Built target compile_MatrixBase_rightCols_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/rule
@@ -10840,12 +10840,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_rightCols_int.dir/clea
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=26 "Built target compile_MatrixBase_row"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_row"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_row.dir/rule
@@ -11126,12 +11126,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_start_int.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_template_int_bottomRows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=27 "Built target compile_MatrixBase_template_int_bottomRows"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRows.dir/rule
@@ -11152,12 +11152,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_bottomRow
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=27 "Built target compile_MatrixBase_template_int_end"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_template_int_end"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_end.dir/rule
@@ -11438,12 +11438,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_leftCols.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_template_int_rightCols"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=28 "Built target compile_MatrixBase_template_int_rightCols"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols.dir/rule
@@ -11464,12 +11464,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_rightCols
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=28 "Built target compile_MatrixBase_template_int_segment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_MatrixBase_template_int_segment"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_MatrixBase_template_int_segment.dir/rule
@@ -11776,12 +11776,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_NoChange_int.dir/cl
 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Matrix_resize_int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=29 "Built target compile_Matrix_resize_int"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/rule
@@ -11802,12 +11802,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=29 "Built target compile_Matrix_resize_int_NoChange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Matrix_resize_int_NoChange"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Matrix_resize_int_NoChange.dir/rule
@@ -12088,12 +12088,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Matrix_setZero_int_int.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_PartialPivLU_solve"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=30 "Built target compile_PartialPivLU_solve"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/rule
@@ -12114,12 +12114,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_PartialPivLU_solve.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=30 "Built target compile_PartialRedux_count"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_PartialRedux_count"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/rule
@@ -12400,12 +12400,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjoin
 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=31 "Built target compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.dir/rule
@@ -12426,12 +12426,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjoin
 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=31 "Built target compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.dir/rule
@@ -12712,12 +12712,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_TopicAliasing_block_correct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=32 "Built target compile_TopicAliasing_block_correct"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/rule
@@ -12738,12 +12738,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_block_correct.dir/c
 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=32 "Built target compile_TopicAliasing_cwise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_TopicAliasing_cwise"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/rule
@@ -13050,12 +13050,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_diagonal.dir/c
 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Tridiagonalization_householderCoefficients"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=33 "Built target compile_Tridiagonalization_householderCoefficients"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoefficients.dir/rule
@@ -13076,12 +13076,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_householderCoe
 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=33 "Built target compile_Tridiagonalization_packedMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Tridiagonalization_packedMatrix"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tridiagonalization_packedMatrix.dir/rule
@@ -13362,12 +13362,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_ReshapeMat2Vec.dir/clean
 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Tutorial_SlicingCol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=34 "Built target compile_Tutorial_SlicingCol"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/rule
@@ -13388,12 +13388,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingCol.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=34 "Built target compile_Tutorial_SlicingVec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Tutorial_SlicingVec"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Tutorial_SlicingVec.dir/rule
@@ -13674,12 +13674,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_VectorwiseOp_homogeneous.dir/clea
 external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_Vectorwise_reverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=35 "Built target compile_Vectorwise_reverse"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/rule
@@ -13700,12 +13700,12 @@ external/eigen/doc/snippets/CMakeFiles/compile_Vectorwise_reverse.dir/clean:
 external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/build.make external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=35 "Built target compile_class_FullPivLU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target compile_class_FullPivLU"
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/doc/snippets/CMakeFiles/compile_class_FullPivLU.dir/rule
@@ -14526,7 +14526,7 @@ external/eigen/test/CMakeFiles/BuildOfficial.dir/all: external/eigen/test/CMakeF
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/BuildOfficial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/BuildOfficial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/BuildOfficial.dir/rule
@@ -16100,12 +16100,12 @@ external/eigen/test/CMakeFiles/linearstructure_1.dir/clean:
 external/eigen/test/CMakeFiles/linearstructure_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/linearstructure_2.dir/build.make external/eigen/test/CMakeFiles/linearstructure_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/linearstructure_2.dir/build.make external/eigen/test/CMakeFiles/linearstructure_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=61 "Built target linearstructure_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target linearstructure_2"
 .PHONY : external/eigen/test/CMakeFiles/linearstructure_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/linearstructure_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/linearstructure_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/linearstructure_2.dir/rule
@@ -16334,12 +16334,12 @@ external/eigen/test/CMakeFiles/linearstructure_10.dir/clean:
 external/eigen/test/CMakeFiles/linearstructure_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/linearstructure_11.dir/build.make external/eigen/test/CMakeFiles/linearstructure_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/linearstructure_11.dir/build.make external/eigen/test/CMakeFiles/linearstructure_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target linearstructure_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=61 "Built target linearstructure_11"
 .PHONY : external/eigen/test/CMakeFiles/linearstructure_11.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/linearstructure_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/linearstructure_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/linearstructure_11.dir/rule
@@ -17228,7 +17228,7 @@ external/eigen/test/CMakeFiles/block.dir/all: external/eigen/test/CMakeFiles/blo
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/block.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/block.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/block.dir/rule
@@ -17275,12 +17275,12 @@ external/eigen/test/CMakeFiles/block_1.dir/clean:
 external/eigen/test/CMakeFiles/block_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/block_2.dir/build.make external/eigen/test/CMakeFiles/block_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/block_2.dir/build.make external/eigen/test/CMakeFiles/block_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=11 "Built target block_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target block_2"
 .PHONY : external/eigen/test/CMakeFiles/block_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/block_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/block_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/block_2.dir/rule
@@ -18044,12 +18044,12 @@ external/eigen/test/CMakeFiles/conservative_resize_2.dir/clean:
 external/eigen/test/CMakeFiles/conservative_resize_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/conservative_resize_3.dir/build.make external/eigen/test/CMakeFiles/conservative_resize_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/conservative_resize_3.dir/build.make external/eigen/test/CMakeFiles/conservative_resize_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target conservative_resize_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=36 "Built target conservative_resize_3"
 .PHONY : external/eigen/test/CMakeFiles/conservative_resize_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/conservative_resize_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/conservative_resize_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/conservative_resize_3.dir/rule
@@ -18070,12 +18070,12 @@ external/eigen/test/CMakeFiles/conservative_resize_3.dir/clean:
 external/eigen/test/CMakeFiles/conservative_resize_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/conservative_resize_4.dir/build.make external/eigen/test/CMakeFiles/conservative_resize_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/conservative_resize_4.dir/build.make external/eigen/test/CMakeFiles/conservative_resize_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=36 "Built target conservative_resize_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target conservative_resize_4"
 .PHONY : external/eigen/test/CMakeFiles/conservative_resize_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/conservative_resize_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/conservative_resize_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/conservative_resize_4.dir/rule
@@ -18193,12 +18193,12 @@ external/eigen/test/CMakeFiles/product_small.dir/clean:
 external/eigen/test/CMakeFiles/product_small_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_small_1.dir/build.make external/eigen/test/CMakeFiles/product_small_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_small_1.dir/build.make external/eigen/test/CMakeFiles/product_small_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target product_small_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=76 "Built target product_small_1"
 .PHONY : external/eigen/test/CMakeFiles/product_small_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/product_small_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/product_small_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/product_small_1.dir/rule
@@ -18375,12 +18375,12 @@ external/eigen/test/CMakeFiles/product_small_6.dir/clean:
 external/eigen/test/CMakeFiles/product_small_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_small_11.dir/build.make external/eigen/test/CMakeFiles/product_small_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_small_11.dir/build.make external/eigen/test/CMakeFiles/product_small_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=76 "Built target product_small_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target product_small_11"
 .PHONY : external/eigen/test/CMakeFiles/product_small_11.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/product_small_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/product_small_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/product_small_11.dir/rule
@@ -19176,12 +19176,12 @@ external/eigen/test/CMakeFiles/diagonalmatrices.dir/clean:
 external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/build.make external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/build.make external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target diagonalmatrices_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=40 "Built target diagonalmatrices_1"
 .PHONY : external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/diagonalmatrices_1.dir/rule
@@ -19410,12 +19410,12 @@ external/eigen/test/CMakeFiles/diagonalmatrices_9.dir/clean:
 external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/build.make external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/build.make external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=40 "Built target diagonalmatrices_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target diagonalmatrices_10"
 .PHONY : external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/diagonalmatrices_10.dir/rule
@@ -19682,12 +19682,12 @@ external/eigen/test/CMakeFiles/adjoint_9.dir/clean:
 external/eigen/test/CMakeFiles/adjoint_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/adjoint_10.dir/build.make external/eigen/test/CMakeFiles/adjoint_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/adjoint_10.dir/build.make external/eigen/test/CMakeFiles/adjoint_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target adjoint_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=5 "Built target adjoint_10"
 .PHONY : external/eigen/test/CMakeFiles/adjoint_10.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/adjoint_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/adjoint_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/adjoint_10.dir/rule
@@ -19708,12 +19708,12 @@ external/eigen/test/CMakeFiles/adjoint_10.dir/clean:
 external/eigen/test/CMakeFiles/adjoint_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/adjoint_11.dir/build.make external/eigen/test/CMakeFiles/adjoint_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/adjoint_11.dir/build.make external/eigen/test/CMakeFiles/adjoint_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=5 "Built target adjoint_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target adjoint_11"
 .PHONY : external/eigen/test/CMakeFiles/adjoint_11.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/adjoint_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/adjoint_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/adjoint_11.dir/rule
@@ -19973,12 +19973,12 @@ external/eigen/test/CMakeFiles/miscmatrices_2.dir/clean:
 external/eigen/test/CMakeFiles/miscmatrices_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/miscmatrices_3.dir/build.make external/eigen/test/CMakeFiles/miscmatrices_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/miscmatrices_3.dir/build.make external/eigen/test/CMakeFiles/miscmatrices_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target miscmatrices_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=68 "Built target miscmatrices_3"
 .PHONY : external/eigen/test/CMakeFiles/miscmatrices_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/miscmatrices_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/miscmatrices_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/miscmatrices_3.dir/rule
@@ -19999,12 +19999,12 @@ external/eigen/test/CMakeFiles/miscmatrices_3.dir/clean:
 external/eigen/test/CMakeFiles/miscmatrices_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/miscmatrices_4.dir/build.make external/eigen/test/CMakeFiles/miscmatrices_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/miscmatrices_4.dir/build.make external/eigen/test/CMakeFiles/miscmatrices_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=68 "Built target miscmatrices_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target miscmatrices_4"
 .PHONY : external/eigen/test/CMakeFiles/miscmatrices_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/miscmatrices_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/miscmatrices_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/miscmatrices_4.dir/rule
@@ -20775,12 +20775,12 @@ external/eigen/test/CMakeFiles/mapstaticmethods_5.dir/clean:
 external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/build.make external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/build.make external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target mapstaticmethods_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=64 "Built target mapstaticmethods_6"
 .PHONY : external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/rule
@@ -20801,12 +20801,12 @@ external/eigen/test/CMakeFiles/mapstaticmethods_6.dir/clean:
 external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/build.make external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/build.make external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=64 "Built target mapstaticmethods_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target mapstaticmethods_7"
 .PHONY : external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/mapstaticmethods_7.dir/rule
@@ -20863,7 +20863,7 @@ external/eigen/test/CMakeFiles/array.dir/all: external/eigen/test/CMakeFiles/arr
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array.dir/rule
@@ -20884,12 +20884,12 @@ external/eigen/test/CMakeFiles/array.dir/clean:
 external/eigen/test/CMakeFiles/array_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_1.dir/build.make external/eigen/test/CMakeFiles/array_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_1.dir/build.make external/eigen/test/CMakeFiles/array_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=6 "Built target array_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target array_1"
 .PHONY : external/eigen/test/CMakeFiles/array_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array_1.dir/rule
@@ -21203,12 +21203,12 @@ external/eigen/test/CMakeFiles/array_for_matrix_5.dir/clean:
 external/eigen/test/CMakeFiles/array_for_matrix_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_for_matrix_6.dir/build.make external/eigen/test/CMakeFiles/array_for_matrix_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_for_matrix_6.dir/build.make external/eigen/test/CMakeFiles/array_for_matrix_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target array_for_matrix_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=7 "Built target array_for_matrix_6"
 .PHONY : external/eigen/test/CMakeFiles/array_for_matrix_6.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array_for_matrix_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array_for_matrix_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array_for_matrix_6.dir/rule
@@ -21255,12 +21255,12 @@ external/eigen/test/CMakeFiles/array_for_matrix_7.dir/clean:
 external/eigen/test/CMakeFiles/array_for_matrix_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_for_matrix_8.dir/build.make external/eigen/test/CMakeFiles/array_for_matrix_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_for_matrix_8.dir/build.make external/eigen/test/CMakeFiles/array_for_matrix_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=7 "Built target array_for_matrix_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target array_for_matrix_8"
 .PHONY : external/eigen/test/CMakeFiles/array_for_matrix_8.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array_for_matrix_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array_for_matrix_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array_for_matrix_8.dir/rule
@@ -21580,12 +21580,12 @@ external/eigen/test/CMakeFiles/array_reverse_3.dir/clean:
 external/eigen/test/CMakeFiles/array_reverse_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_reverse_4.dir/build.make external/eigen/test/CMakeFiles/array_reverse_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_reverse_4.dir/build.make external/eigen/test/CMakeFiles/array_reverse_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target array_reverse_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=8 "Built target array_reverse_4"
 .PHONY : external/eigen/test/CMakeFiles/array_reverse_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array_reverse_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array_reverse_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array_reverse_4.dir/rule
@@ -21606,12 +21606,12 @@ external/eigen/test/CMakeFiles/array_reverse_4.dir/clean:
 external/eigen/test/CMakeFiles/array_reverse_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_reverse_5.dir/build.make external/eigen/test/CMakeFiles/array_reverse_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/array_reverse_5.dir/build.make external/eigen/test/CMakeFiles/array_reverse_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=8 "Built target array_reverse_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target array_reverse_5"
 .PHONY : external/eigen/test/CMakeFiles/array_reverse_5.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/array_reverse_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/array_reverse_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/array_reverse_5.dir/rule
@@ -23307,12 +23307,12 @@ external/eigen/test/CMakeFiles/product_trmm_111.dir/clean:
 external/eigen/test/CMakeFiles/product_trmm_21.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_trmm_21.dir/build.make external/eigen/test/CMakeFiles/product_trmm_21.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_trmm_21.dir/build.make external/eigen/test/CMakeFiles/product_trmm_21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target product_trmm_21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=80 "Built target product_trmm_21"
 .PHONY : external/eigen/test/CMakeFiles/product_trmm_21.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/product_trmm_21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/product_trmm_21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/product_trmm_21.dir/rule
@@ -23463,12 +23463,12 @@ external/eigen/test/CMakeFiles/product_trmm_112.dir/clean:
 external/eigen/test/CMakeFiles/product_trmm_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_trmm_22.dir/build.make external/eigen/test/CMakeFiles/product_trmm_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/product_trmm_22.dir/build.make external/eigen/test/CMakeFiles/product_trmm_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=80 "Built target product_trmm_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target product_trmm_22"
 .PHONY : external/eigen/test/CMakeFiles/product_trmm_22.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/product_trmm_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/product_trmm_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/product_trmm_22.dir/rule
@@ -24656,12 +24656,12 @@ external/eigen/test/CMakeFiles/stable_norm_3.dir/clean:
 external/eigen/test/CMakeFiles/stable_norm_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/stable_norm_4.dir/build.make external/eigen/test/CMakeFiles/stable_norm_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/stable_norm_4.dir/build.make external/eigen/test/CMakeFiles/stable_norm_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target stable_norm_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=92 "Built target stable_norm_4"
 .PHONY : external/eigen/test/CMakeFiles/stable_norm_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/stable_norm_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/stable_norm_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/stable_norm_4.dir/rule
@@ -24682,12 +24682,12 @@ external/eigen/test/CMakeFiles/stable_norm_4.dir/clean:
 external/eigen/test/CMakeFiles/stable_norm_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/stable_norm_5.dir/build.make external/eigen/test/CMakeFiles/stable_norm_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/stable_norm_5.dir/build.make external/eigen/test/CMakeFiles/stable_norm_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=92 "Built target stable_norm_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target stable_norm_5"
 .PHONY : external/eigen/test/CMakeFiles/stable_norm_5.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/stable_norm_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/stable_norm_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/stable_norm_5.dir/rule
@@ -24961,7 +24961,7 @@ external/eigen/test/CMakeFiles/cholesky.dir/all: external/eigen/test/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/cholesky.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/cholesky.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/cholesky.dir/rule
@@ -24982,12 +24982,12 @@ external/eigen/test/CMakeFiles/cholesky.dir/clean:
 external/eigen/test/CMakeFiles/cholesky_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/cholesky_1.dir/build.make external/eigen/test/CMakeFiles/cholesky_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/cholesky_1.dir/build.make external/eigen/test/CMakeFiles/cholesky_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=12 "Built target cholesky_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cholesky_1"
 .PHONY : external/eigen/test/CMakeFiles/cholesky_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/cholesky_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/cholesky_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/cholesky_1.dir/rule
@@ -26507,12 +26507,12 @@ external/eigen/test/CMakeFiles/qr_fullpivoting.dir/clean:
 external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/build.make external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/build.make external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target qr_fullpivoting_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=84 "Built target qr_fullpivoting_1"
 .PHONY : external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/rule
@@ -26533,12 +26533,12 @@ external/eigen/test/CMakeFiles/qr_fullpivoting_1.dir/clean:
 external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/build.make external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/build.make external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=84 "Built target qr_fullpivoting_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target qr_fullpivoting_2"
 .PHONY : external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/qr_fullpivoting_2.dir/rule
@@ -26934,12 +26934,12 @@ external/eigen/test/CMakeFiles/hessenberg.dir/clean:
 external/eigen/test/CMakeFiles/hessenberg_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/hessenberg_1.dir/build.make external/eigen/test/CMakeFiles/hessenberg_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/hessenberg_1.dir/build.make external/eigen/test/CMakeFiles/hessenberg_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target hessenberg_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=55 "Built target hessenberg_1"
 .PHONY : external/eigen/test/CMakeFiles/hessenberg_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/hessenberg_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/hessenberg_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/hessenberg_1.dir/rule
@@ -26960,12 +26960,12 @@ external/eigen/test/CMakeFiles/hessenberg_1.dir/clean:
 external/eigen/test/CMakeFiles/hessenberg_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/hessenberg_2.dir/build.make external/eigen/test/CMakeFiles/hessenberg_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/hessenberg_2.dir/build.make external/eigen/test/CMakeFiles/hessenberg_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=55 "Built target hessenberg_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target hessenberg_2"
 .PHONY : external/eigen/test/CMakeFiles/hessenberg_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/hessenberg_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/hessenberg_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/hessenberg_2.dir/rule
@@ -27680,12 +27680,12 @@ external/eigen/test/CMakeFiles/eigensolver_selfadjoint_6.dir/clean:
 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/build.make external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/build.make external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target eigensolver_selfadjoint_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=49 "Built target eigensolver_selfadjoint_7"
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/rule
@@ -27706,12 +27706,12 @@ external/eigen/test/CMakeFiles/eigensolver_selfadjoint_7.dir/clean:
 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/build.make external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/build.make external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=49 "Built target eigensolver_selfadjoint_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target eigensolver_selfadjoint_8"
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_selfadjoint_8.dir/rule
@@ -27762,12 +27762,12 @@ external/eigen/test/CMakeFiles/eigensolver_generic.dir/clean:
 external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/build.make external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/build.make external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target eigensolver_generic_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=48 "Built target eigensolver_generic_1"
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/rule
@@ -27788,12 +27788,12 @@ external/eigen/test/CMakeFiles/eigensolver_generic_1.dir/clean:
 external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/build.make external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/build.make external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=48 "Built target eigensolver_generic_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target eigensolver_generic_2"
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/eigensolver_generic_2.dir/rule
@@ -28543,12 +28543,12 @@ external/eigen/test/CMakeFiles/jacobisvd.dir/clean:
 external/eigen/test/CMakeFiles/jacobisvd_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/jacobisvd_3.dir/build.make external/eigen/test/CMakeFiles/jacobisvd_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/jacobisvd_3.dir/build.make external/eigen/test/CMakeFiles/jacobisvd_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target jacobisvd_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=60 "Built target jacobisvd_3"
 .PHONY : external/eigen/test/CMakeFiles/jacobisvd_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/jacobisvd_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/jacobisvd_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/jacobisvd_3.dir/rule
@@ -28569,12 +28569,12 @@ external/eigen/test/CMakeFiles/jacobisvd_3.dir/clean:
 external/eigen/test/CMakeFiles/jacobisvd_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/jacobisvd_4.dir/build.make external/eigen/test/CMakeFiles/jacobisvd_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/jacobisvd_4.dir/build.make external/eigen/test/CMakeFiles/jacobisvd_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=60 "Built target jacobisvd_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target jacobisvd_4"
 .PHONY : external/eigen/test/CMakeFiles/jacobisvd_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/jacobisvd_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/jacobisvd_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/jacobisvd_4.dir/rule
@@ -29022,12 +29022,12 @@ external/eigen/test/CMakeFiles/bdcsvd_8.dir/clean:
 external/eigen/test/CMakeFiles/bdcsvd_101.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bdcsvd_101.dir/build.make external/eigen/test/CMakeFiles/bdcsvd_101.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bdcsvd_101.dir/build.make external/eigen/test/CMakeFiles/bdcsvd_101.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target bdcsvd_101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=10 "Built target bdcsvd_101"
 .PHONY : external/eigen/test/CMakeFiles/bdcsvd_101.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/bdcsvd_101.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/bdcsvd_101.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/bdcsvd_101.dir/rule
@@ -29048,12 +29048,12 @@ external/eigen/test/CMakeFiles/bdcsvd_101.dir/clean:
 external/eigen/test/CMakeFiles/bdcsvd_102.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bdcsvd_102.dir/build.make external/eigen/test/CMakeFiles/bdcsvd_102.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bdcsvd_102.dir/build.make external/eigen/test/CMakeFiles/bdcsvd_102.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=10 "Built target bdcsvd_102"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target bdcsvd_102"
 .PHONY : external/eigen/test/CMakeFiles/bdcsvd_102.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/bdcsvd_102.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/bdcsvd_102.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/bdcsvd_102.dir/rule
@@ -29668,7 +29668,7 @@ external/eigen/test/CMakeFiles/geo_quaternion.dir/all: external/eigen/test/CMake
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_quaternion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_quaternion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_quaternion.dir/rule
@@ -29819,12 +29819,12 @@ external/eigen/test/CMakeFiles/geo_quaternion_5.dir/clean:
 external/eigen/test/CMakeFiles/geo_quaternion_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_quaternion_6.dir/build.make external/eigen/test/CMakeFiles/geo_quaternion_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_quaternion_6.dir/build.make external/eigen/test/CMakeFiles/geo_quaternion_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target geo_quaternion_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=54 "Built target geo_quaternion_6"
 .PHONY : external/eigen/test/CMakeFiles/geo_quaternion_6.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_quaternion_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_quaternion_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_quaternion_6.dir/rule
@@ -30356,12 +30356,12 @@ external/eigen/test/CMakeFiles/geo_alignedbox_10.dir/clean:
 external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/build.make external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/build.make external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target geo_alignedbox_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=51 "Built target geo_alignedbox_11"
 .PHONY : external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_alignedbox_11.dir/rule
@@ -30408,12 +30408,12 @@ external/eigen/test/CMakeFiles/geo_alignedbox_14.dir/clean:
 external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/build.make external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/build.make external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=51 "Built target geo_alignedbox_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target geo_alignedbox_12"
 .PHONY : external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_alignedbox_12.dir/rule
@@ -30632,7 +30632,7 @@ external/eigen/test/CMakeFiles/geo_transformations.dir/all: external/eigen/test/
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_transformations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_transformations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_transformations.dir/rule
@@ -30653,12 +30653,12 @@ external/eigen/test/CMakeFiles/geo_transformations.dir/clean:
 external/eigen/test/CMakeFiles/geo_transformations_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_transformations_1.dir/build.make external/eigen/test/CMakeFiles/geo_transformations_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/geo_transformations_1.dir/build.make external/eigen/test/CMakeFiles/geo_transformations_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=54 "Built target geo_transformations_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target geo_transformations_1"
 .PHONY : external/eigen/test/CMakeFiles/geo_transformations_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/geo_transformations_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/geo_transformations_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/geo_transformations_1.dir/rule
@@ -32778,12 +32778,12 @@ external/eigen/test/CMakeFiles/simplicial_cholesky.dir/clean:
 external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/build.make external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/build.make external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target simplicial_cholesky_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=88 "Built target simplicial_cholesky_1"
 .PHONY : external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/rule
@@ -32804,12 +32804,12 @@ external/eigen/test/CMakeFiles/simplicial_cholesky_1.dir/clean:
 external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/build.make external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/build.make external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=88 "Built target simplicial_cholesky_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target simplicial_cholesky_2"
 .PHONY : external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/simplicial_cholesky_2.dir/rule
@@ -33075,7 +33075,7 @@ external/eigen/test/CMakeFiles/bicgstab.dir/all: external/eigen/test/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/bicgstab.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/bicgstab.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/bicgstab.dir/rule
@@ -33148,12 +33148,12 @@ external/eigen/test/CMakeFiles/bicgstab_2.dir/clean:
 external/eigen/test/CMakeFiles/bicgstab_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bicgstab_3.dir/build.make external/eigen/test/CMakeFiles/bicgstab_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/bicgstab_3.dir/build.make external/eigen/test/CMakeFiles/bicgstab_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target bicgstab_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=11 "Built target bicgstab_3"
 .PHONY : external/eigen/test/CMakeFiles/bicgstab_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/bicgstab_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/bicgstab_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/bicgstab_3.dir/rule
@@ -33761,12 +33761,12 @@ external/eigen/test/CMakeFiles/nesting_ops_1.dir/clean:
 external/eigen/test/CMakeFiles/nesting_ops_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/nesting_ops_2.dir/build.make external/eigen/test/CMakeFiles/nesting_ops_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/nesting_ops_2.dir/build.make external/eigen/test/CMakeFiles/nesting_ops_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target nesting_ops_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=69 "Built target nesting_ops_2"
 .PHONY : external/eigen/test/CMakeFiles/nesting_ops_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/nesting_ops_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/nesting_ops_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/nesting_ops_2.dir/rule
@@ -33787,12 +33787,12 @@ external/eigen/test/CMakeFiles/nesting_ops_2.dir/clean:
 external/eigen/test/CMakeFiles/nesting_ops_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/nesting_ops_3.dir/build.make external/eigen/test/CMakeFiles/nesting_ops_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/nesting_ops_3.dir/build.make external/eigen/test/CMakeFiles/nesting_ops_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=69 "Built target nesting_ops_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target nesting_ops_3"
 .PHONY : external/eigen/test/CMakeFiles/nesting_ops_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/nesting_ops_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/nesting_ops_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/nesting_ops_3.dir/rule
@@ -33976,12 +33976,12 @@ external/eigen/test/CMakeFiles/dontalign_3.dir/clean:
 external/eigen/test/CMakeFiles/dontalign_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/dontalign_4.dir/build.make external/eigen/test/CMakeFiles/dontalign_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/dontalign_4.dir/build.make external/eigen/test/CMakeFiles/dontalign_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target dontalign_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=41 "Built target dontalign_4"
 .PHONY : external/eigen/test/CMakeFiles/dontalign_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/dontalign_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/dontalign_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/dontalign_4.dir/rule
@@ -34002,12 +34002,12 @@ external/eigen/test/CMakeFiles/dontalign_4.dir/clean:
 external/eigen/test/CMakeFiles/dontalign_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/dontalign_5.dir/build.make external/eigen/test/CMakeFiles/dontalign_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/dontalign_5.dir/build.make external/eigen/test/CMakeFiles/dontalign_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=41 "Built target dontalign_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target dontalign_5"
 .PHONY : external/eigen/test/CMakeFiles/dontalign_5.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/dontalign_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/dontalign_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/dontalign_5.dir/rule
@@ -34720,12 +34720,12 @@ external/eigen/test/CMakeFiles/inplace_decomposition.dir/clean:
 external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/build.make external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/build.make external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target inplace_decomposition_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=57 "Built target inplace_decomposition_1"
 .PHONY : external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/rule
@@ -34746,12 +34746,12 @@ external/eigen/test/CMakeFiles/inplace_decomposition_1.dir/clean:
 external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/build.make external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/build.make external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=57 "Built target inplace_decomposition_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target inplace_decomposition_2"
 .PHONY : external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/test/CMakeFiles/inplace_decomposition_2.dir/rule
@@ -35241,12 +35241,12 @@ external/eigen/blas/testing/CMakeFiles/sblat3.dir/clean:
 external/eigen/blas/testing/CMakeFiles/dblat1.dir/all: external/eigen/blas/CMakeFiles/eigen_blas.dir/all
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/dblat1.dir/build.make external/eigen/blas/testing/CMakeFiles/dblat1.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/dblat1.dir/build.make external/eigen/blas/testing/CMakeFiles/dblat1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target dblat1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=39 "Built target dblat1"
 .PHONY : external/eigen/blas/testing/CMakeFiles/dblat1.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/blas/testing/CMakeFiles/dblat1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/blas/testing/CMakeFiles/dblat1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/blas/testing/CMakeFiles/dblat1.dir/rule
@@ -35267,12 +35267,12 @@ external/eigen/blas/testing/CMakeFiles/dblat1.dir/clean:
 external/eigen/blas/testing/CMakeFiles/dblat2.dir/all: external/eigen/blas/CMakeFiles/eigen_blas.dir/all
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/dblat2.dir/build.make external/eigen/blas/testing/CMakeFiles/dblat2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/dblat2.dir/build.make external/eigen/blas/testing/CMakeFiles/dblat2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=39 "Built target dblat2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target dblat2"
 .PHONY : external/eigen/blas/testing/CMakeFiles/dblat2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/blas/testing/CMakeFiles/dblat2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/blas/testing/CMakeFiles/dblat2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/blas/testing/CMakeFiles/dblat2.dir/rule
@@ -35371,12 +35371,12 @@ external/eigen/blas/testing/CMakeFiles/cblat2.dir/clean:
 external/eigen/blas/testing/CMakeFiles/cblat3.dir/all: external/eigen/blas/CMakeFiles/eigen_blas.dir/all
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/cblat3.dir/build.make external/eigen/blas/testing/CMakeFiles/cblat3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/blas/testing/CMakeFiles/cblat3.dir/build.make external/eigen/blas/testing/CMakeFiles/cblat3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cblat3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=12 "Built target cblat3"
 .PHONY : external/eigen/blas/testing/CMakeFiles/cblat3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/blas/testing/CMakeFiles/cblat3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/blas/testing/CMakeFiles/cblat3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/blas/testing/CMakeFiles/cblat3.dir/rule
@@ -35800,12 +35800,12 @@ external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixPower_optimal.d
 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/build.make external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/build.make external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target example_MatrixSine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=50 "Built target example_MatrixSine"
 .PHONY : external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/rule
@@ -35826,12 +35826,12 @@ external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSine.dir/clean:
 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/build.make external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/build.make external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=50 "Built target example_MatrixSinh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target example_MatrixSinh"
 .PHONY : external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/doc/examples/CMakeFiles/example_MatrixSinh.dir/rule
@@ -36073,7 +36073,7 @@ external/eigen/unsupported/test/CMakeFiles/BuildUnsupported.dir/all: external/ei
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/BuildUnsupported.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/BuildUnsupported.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/BuildUnsupported.dir/rule
@@ -36227,12 +36227,12 @@ external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_2.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/build.make external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/build.make external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target autodiff_scalar_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=9 "Built target autodiff_scalar_3"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/rule
@@ -36253,12 +36253,12 @@ external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_3.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/build.make external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/build.make external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=9 "Built target autodiff_scalar_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target autodiff_scalar_4"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/autodiff_scalar_4.dir/rule
@@ -36656,12 +36656,12 @@ external/eigen/unsupported/test/CMakeFiles/matrix_exponential_6.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/build.make external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/build.make external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=65 "Built target matrix_exponential_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target matrix_exponential_5"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/matrix_exponential_5.dir/rule
@@ -36734,12 +36734,12 @@ external/eigen/unsupported/test/CMakeFiles/matrix_exponential_3.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/build.make external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/build.make external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target matrix_exponential_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=65 "Built target matrix_exponential_4"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/matrix_exponential_4.dir/rule
@@ -37509,12 +37509,12 @@ external/eigen/unsupported/test/CMakeFiles/matrix_square_root_5.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/build.make external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/build.make external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target alignedvector3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=6 "Built target alignedvector3"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/alignedvector3.dir/rule
@@ -37916,12 +37916,12 @@ external/eigen/unsupported/test/CMakeFiles/polynomialsolver_1.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=72 "Built target polynomialsolver_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target polynomialsolver_2"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialsolver_2.dir/rule
@@ -38176,12 +38176,12 @@ external/eigen/unsupported/test/CMakeFiles/polynomialsolver_11.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target polynomialsolver_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=72 "Built target polynomialsolver_12"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialsolver_12.dir/rule
@@ -38313,12 +38313,12 @@ external/eigen/unsupported/test/CMakeFiles/polynomialutils_4.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target polynomialutils_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=73 "Built target polynomialutils_5"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/rule
@@ -38339,12 +38339,12 @@ external/eigen/unsupported/test/CMakeFiles/polynomialutils_5.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/build.make external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=73 "Built target polynomialutils_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target polynomialutils_6"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/polynomialutils_6.dir/rule
@@ -38889,12 +38889,12 @@ external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_assign.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cxx11_tensor_comparisons"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=37 "Built target cxx11_tensor_comparisons"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_comparisons.dir/rule
@@ -38967,12 +38967,12 @@ external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_math.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=37 "Built target cxx11_tensor_const"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cxx11_tensor_const"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_const.dir/rule
@@ -39311,12 +39311,12 @@ external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_roundings.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=38 "Built target cxx11_tensor_layout_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cxx11_tensor_layout_swap"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/rule
@@ -39337,12 +39337,12 @@ external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_layout_swap.dir/clean:
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/build.make external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num= "Built target cxx11_tensor_io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bennysun/mcmc_cpp/build/CMakeFiles --progress-num=38 "Built target cxx11_tensor_io"
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/all
 
 # Build rule for subdir invocation for target.
 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bennysun/mcmc_cpp/build/CMakeFiles 0
 .PHONY : external/eigen/unsupported/test/CMakeFiles/cxx11_tensor_io.dir/rule
