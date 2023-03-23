@@ -5,9 +5,11 @@ class JohnWalk: public BarrierWalk{
     public:
     float step_size{};
     float max_iter{};
-        JohnWalk(float ss, float mi) : BarrierWalk(){
+    float grad_lim{};
+        JohnWalk(float ss, float mi, float gl) : BarrierWalk(){
             step_size = ss;
             max_iter = mi;
+            grad_lim = gl;
         }
         
         void initialize(MatrixXd A_p, VectorXd b_p, float r){
@@ -21,7 +23,7 @@ class JohnWalk: public BarrierWalk{
         }
 
         VectorXd vect_pow(VectorXd x, float alpha);
-        VectorXd gradient_descent(VectorXd x, float adj, int sim);
+        VectorXd gradient_descent(VectorXd x, float adj, int sim, float grad_lim);
         VectorXd generate_weight(VectorXd x);
 
         void printType();

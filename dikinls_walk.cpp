@@ -8,7 +8,7 @@ VectorXd DikinLSWalk::vect_pow(VectorXd x, float alpha){
     return x;
 }
 
-VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim){
+VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim, float gl){
 
     float q = 2 * (1 + log(A.rows()));
     float alpha = 1 - (2/q);
@@ -31,7 +31,7 @@ VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim){
         VectorXd term2 = (0.5 - 1/q) * VectorXd::Ones(A.rows()); 
         
         VectorXd gradient = term1 - term2;
-        if(gradient.norm() < 0.01){
+        if(gradient.norm() < gl){
             break;
         }
         VectorXd proposal = w_i + adj * gradient;
@@ -47,7 +47,7 @@ VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim){
 }
 
 VectorXd DikinLSWalk::generate_weight(VectorXd x){
-    VectorXd w = gradient_descent(x, step_size, max_iter);
+    VectorXd w = gradient_descent(x, step_size, max_iter, grad_lim);
     return w;
 }
 

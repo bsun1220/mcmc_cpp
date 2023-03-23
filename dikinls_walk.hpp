@@ -6,9 +6,11 @@ class DikinLSWalk: public BarrierWalk{
 
         float step_size {};
         float max_iter {};
-        DikinLSWalk(float ss, float mi) : BarrierWalk(){
+        float grad_lim {};
+        DikinLSWalk(float ss, float mi, float gl) : BarrierWalk(){
             step_size = ss;
             max_iter = mi;
+            grad_lim = gl;
         }
 
         void initialize(MatrixXd A_p, VectorXd b_p, float r){
@@ -23,6 +25,6 @@ class DikinLSWalk: public BarrierWalk{
 
         VectorXd vect_pow(VectorXd x, float alpha);
         VectorXd generate_weight(VectorXd x);
-        VectorXd gradient_descent(VectorXd x, float adj, int sim);
+        VectorXd gradient_descent(VectorXd x, float adj, int sim, float grad_lim);
         void printType();
 };

@@ -7,7 +7,7 @@ VectorXd JohnWalk::vect_pow(VectorXd x, float alpha){
     return x;
 }
 
-VectorXd JohnWalk::gradient_descent(VectorXd x, float adj, int sim){
+VectorXd JohnWalk::gradient_descent(VectorXd x, float adj, int sim, float grad_lim){
     float alpha = 1 - 1/(log2(2 * A.rows() / A.cols()));
     float beta = (double)A.cols() / (2 * A.rows());
 
@@ -32,7 +32,7 @@ VectorXd JohnWalk::gradient_descent(VectorXd x, float adj, int sim){
         VectorXd term3 = beta * vect_pow(w_i, -1);
         
         VectorXd gradient = term1 - term2 - term3;
-        if(gradient.norm() < 0.01){
+        if(gradient.norm() < grad_lim){
             break;
         }
         w_i = w_i - adj * gradient;
@@ -44,7 +44,7 @@ VectorXd JohnWalk::gradient_descent(VectorXd x, float adj, int sim){
 }
 
 VectorXd JohnWalk::generate_weight(VectorXd x){
-    VectorXd w = gradient_descent(x, step_size, max_iter);
+    VectorXd w = gradient_descent(x, step_size, max_iter, grad_lim);
     return w;
 }
 

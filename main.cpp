@@ -74,8 +74,8 @@ int main(){
     b << 1, 1, 1, -1;*/
 
     VaidyaWalk v;
-    DikinLSWalk dl(0.1, 100);
-    JohnWalk j(0.1, 100);
+    DikinLSWalk dl(0.1, 100, 0.01);
+    JohnWalk j(0.1, 100, 0.01);
     DikinWalk d;
 
     cout << full_run(A, b, dl, 0.4, 1000) << endl;
