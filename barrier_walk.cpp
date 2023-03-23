@@ -42,8 +42,9 @@ float BarrierWalk::local_norm(VectorXd v, MatrixXd m){
 }
 
 VectorXd BarrierWalk::generate_weight(VectorXd x){
+    cout << "no" << endl;
     int d = b.rows();
-    return VectorXd::Ones(d);
+    return VectorXd::Zero(d);
 }
 
 MatrixXd BarrierWalk::generate_hessian(VectorXd x){
@@ -64,6 +65,10 @@ VectorXd BarrierWalk::generate_sample(VectorXd x){
     MatrixXd matrix = generate_hessian(x).inverse().sqrt();
     VectorXd direction = generate_gaussian_rv(x.rows());
     return x + term_sample * (matrix * direction);
+}
+
+void BarrierWalk::printType(){
+    cout << "Generic Barrier" << endl;
 }
 
 MatrixXd BarrierWalk::generate_complete_walk(int num_steps, VectorXd x){

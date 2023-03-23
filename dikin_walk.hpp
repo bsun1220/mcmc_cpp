@@ -9,12 +9,14 @@ class DikinWalk: public BarrierWalk{
 
         void initialize(MatrixXd A_p, VectorXd b_p, float r){
             float constant = (r * r)/b_p.rows();
-            term_density = (-0.5 / constant);
-            term_sample = sqrt(constant);
+            float td = (-0.5 / constant);
+            float ts = sqrt(constant);
             A = A_p;
             b = b_p;
-            BarrierWalk::set_ts(term_sample);
-            BarrierWalk::set_td(term_density);
+            set_ts(ts);
+            set_td(td);
         }
         VectorXd generate_weight(VectorXd x);
+
+        void printType();
 };

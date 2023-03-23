@@ -1014,3 +1014,27 @@ Linking CXX executable cmTC_7ba23
 Source file was:
 int main() { return 0; }
 
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-v1376z
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e8e5f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8e5f.dir/build.make CMakeFiles/cmTC_e8e5f.dir/build
+Building C object CMakeFiles/cmTC_e8e5f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DBLAS_USE_F2C  -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/cmTC_e8e5f.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e8e5f.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e8e5f.dir/CheckFunctionExists.c.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-v1376z/CheckFunctionExists.c
+Linking C executable cmTC_e8e5f
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8e5f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e8e5f.dir/CheckFunctionExists.c.o -o cmTC_e8e5f  -Xlinker -framework -Xlinker Accelerate 
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNsQX1
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1b4b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d1b4b.dir/build.make CMakeFiles/cmTC_d1b4b.dir/build
+Building C object CMakeFiles/cmTC_d1b4b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DLAPACK_USE_F2C  -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/cmTC_d1b4b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d1b4b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d1b4b.dir/CheckFunctionExists.c.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNsQX1/CheckFunctionExists.c
+Linking C executable cmTC_d1b4b
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1b4b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d1b4b.dir/CheckFunctionExists.c.o -o cmTC_d1b4b  -Xlinker -framework -Xlinker Accelerate -Xlinker -framework -Xlinker Accelerate 
+
+
+

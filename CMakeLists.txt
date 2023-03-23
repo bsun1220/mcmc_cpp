@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 project(MCMC)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(${PROJECT_NAME} main.cpp facial_reduction.cpp central.cpp dikin_walk.cpp barrier_walk.cpp)
+add_executable(${PROJECT_NAME} main.cpp facial_reduction.cpp central.cpp vaidya_walk.cpp dikinls_walk.cpp john_walk.cpp dikin_walk.cpp barrier_walk.cpp)
 #add_executable(${PROJECT_NAME} ifopt_test.cpp)
 add_subdirectory(external/eigen)
 add_subdirectory(external/ifopt)

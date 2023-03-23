@@ -18,10 +18,10 @@ VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim){
     MatrixXd A_x = slack_inv * A;
 
     while(sim--){
-        VectorXd W = vect_pow(x, alpha).asDiagonal().toDenseMatrix();
+        MatrixXd W = vect_pow(w_i, alpha).asDiagonal().toDenseMatrix();
 
         VectorXd term1a = alpha * (vect_pow(w_i, alpha - 1));
-        VectorXd term1b = (A_x * A_x.transpose() * W * A_x * A_x.transpose()).diagonal();
+        VectorXd term1b = (A_x * (A_x.transpose() * W * A_x).inverse() * A_x.transpose()).diagonal();
 
         VectorXd term1(A.rows());
         for(int i = 0; i < A.rows(); i++){
@@ -47,5 +47,10 @@ VectorXd DikinLSWalk::gradient_descent(VectorXd x, float adj, int sim){
 }
 
 VectorXd DikinLSWalk::generate_weight(VectorXd x){
-    return gradient_descent(x, 0.1, 100);
+    VectorXd w = gradient_descent(x, step_size, max_iter);
+    return w;
+}
+
+void DikinLSWalk::printType(){
+    cout << "DikinLSWalk" << endl;
 }

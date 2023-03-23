@@ -17367,6 +17367,30 @@ dikin_walk.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikin_walk.cpp.s
 .PHONY : dikin_walk.cpp.s
 
+dikinls_walk.o: dikinls_walk.cpp.o
+.PHONY : dikinls_walk.o
+
+# target to build an object file
+dikinls_walk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.o
+.PHONY : dikinls_walk.cpp.o
+
+dikinls_walk.i: dikinls_walk.cpp.i
+.PHONY : dikinls_walk.i
+
+# target to preprocess a source file
+dikinls_walk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.i
+.PHONY : dikinls_walk.cpp.i
+
+dikinls_walk.s: dikinls_walk.cpp.s
+.PHONY : dikinls_walk.s
+
+# target to generate assembly for a file
+dikinls_walk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.s
+.PHONY : dikinls_walk.cpp.s
+
 facial_reduction.o: facial_reduction.cpp.o
 .PHONY : facial_reduction.o
 
@@ -17391,6 +17415,30 @@ facial_reduction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/facial_reduction.cpp.s
 .PHONY : facial_reduction.cpp.s
 
+john_walk.o: john_walk.cpp.o
+.PHONY : john_walk.o
+
+# target to build an object file
+john_walk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.o
+.PHONY : john_walk.cpp.o
+
+john_walk.i: john_walk.cpp.i
+.PHONY : john_walk.i
+
+# target to preprocess a source file
+john_walk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.i
+.PHONY : john_walk.cpp.i
+
+john_walk.s: john_walk.cpp.s
+.PHONY : john_walk.s
+
+# target to generate assembly for a file
+john_walk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.s
+.PHONY : john_walk.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -17414,6 +17462,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+vaidya_walk.o: vaidya_walk.cpp.o
+.PHONY : vaidya_walk.o
+
+# target to build an object file
+vaidya_walk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.o
+.PHONY : vaidya_walk.cpp.o
+
+vaidya_walk.i: vaidya_walk.cpp.i
+.PHONY : vaidya_walk.i
+
+# target to preprocess a source file
+vaidya_walk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.i
+.PHONY : vaidya_walk.cpp.i
+
+vaidya_walk.s: vaidya_walk.cpp.s
+.PHONY : vaidya_walk.s
+
+# target to generate assembly for a file
+vaidya_walk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.s
+.PHONY : vaidya_walk.cpp.s
 
 # Help Target
 help:
@@ -18754,12 +18826,21 @@ help:
 	@echo "... dikin_walk.o"
 	@echo "... dikin_walk.i"
 	@echo "... dikin_walk.s"
+	@echo "... dikinls_walk.o"
+	@echo "... dikinls_walk.i"
+	@echo "... dikinls_walk.s"
 	@echo "... facial_reduction.o"
 	@echo "... facial_reduction.i"
 	@echo "... facial_reduction.s"
+	@echo "... john_walk.o"
+	@echo "... john_walk.i"
+	@echo "... john_walk.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... vaidya_walk.o"
+	@echo "... vaidya_walk.i"
+	@echo "... vaidya_walk.s"
 .PHONY : help
 
 

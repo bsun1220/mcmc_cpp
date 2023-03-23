@@ -20,6 +20,69 @@ ADOLC_INCLUDES:PATH=ADOLC_INCLUDES-NOTFOUND
 //Path to a library.
 ADOLC_LIBRARIES:FILEPATH=ADOLC_LIBRARIES-NOTFOUND
 
+//Path to a library.
+BLAS_Accelerate_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
+
+//Compilation options to use BLAS
+BLAS_DEFINITIONS:STRING=-DBLAS_USE_F2C
+
+//Directories containing the BLAS header files
+BLAS_INCLUDE_DIR:PATH=
+
+//BLAS libraries name
+BLAS_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
+
+//Directories containing the BLAS libraries
+BLAS_LIBRARIES_DIR:PATH=
+
+//Linker flags to use BLAS
+BLAS_LINKER_FLAGS:STRING=
+
+//Path to a library.
+BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_cblas_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/lib/libcblas.tbd
+
+//Path to a library.
+BLAS_complib.sgimath_LIBRARY:FILEPATH=BLAS_complib.sgimath_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_cxml_LIBRARY:FILEPATH=BLAS_cxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_dxml_LIBRARY:FILEPATH=BLAS_dxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_essl_LIBRARY:FILEPATH=BLAS_essl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_f77blas_LIBRARY:FILEPATH=BLAS_f77blas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_LIBRARY:FILEPATH=BLAS_mkl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_c_dll_LIBRARY:FILEPATH=BLAS_mkl_c_dll_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_em64t_LIBRARY:FILEPATH=BLAS_mkl_em64t_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_ia32_LIBRARY:FILEPATH=BLAS_mkl_ia32_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_intel_lp64_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_scsl_LIBRARY:FILEPATH=BLAS_scsl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sgemm_LIBRARY:FILEPATH=BLAS_sgemm_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sunperf_LIBRARY:FILEPATH=BLAS_sunperf_LIBRARY-NOTFOUND
+
 //compile with IPOPT solver
 BUILD_IPOPT:BOOL=ON
 
@@ -606,6 +669,9 @@ EigenLapack_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 EigenLapack_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/eigen/lapack
 
+//The directory containing a CMake configuration file for F2C.
+F2C_DIR:PATH=F2C_DIR-NOTFOUND
+
 //Path to a library.
 FFTWF_LIB:FILEPATH=FFTWF_LIB-NOTFOUND
 
@@ -675,6 +741,30 @@ IPOPT_INCLUDE_DIRS:PATH=/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
 
 //IPOPT libraries
 IPOPT_LIBRARIES:STRING=
+
+//Path to a library.
+LAPACK_Accelerate_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
+
+//Compilation options to use LAPACK
+LAPACK_DEFINITIONS:STRING=-DLAPACK_USE_F2C
+
+//Directories containing the LAPACK header files
+LAPACK_INCLUDE_DIR:PATH=
+
+//LAPACK libraries name
+LAPACK_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
+
+//Directories containing the LAPACK libraries
+LAPACK_LIBRARIES_DIR:PATH=
+
+//Linker flags to use LAPACK
+LAPACK_LINKER_FLAGS:STRING=
+
+//Path to a library.
+LAPACK_acml_LIBRARY:FILEPATH=LAPACK_acml_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_mkl_lapack_LIBRARY:FILEPATH=LAPACK_mkl_lapack_LIBRARY-NOTFOUND
 
 //Path to a file.
 LIBXSMM:PATH=LIBXSMM-NOTFOUND
@@ -846,6 +936,40 @@ pybind11_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/pybind
 ADOLC_INCLUDES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ADOLC_LIBRARIES
 ADOLC_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_Accelerate_LIBRARY
+BLAS_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_acml_LIBRARY
+BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_cblas_LIBRARY
+BLAS_cblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_complib.sgimath_LIBRARY
+BLAS_complib.sgimath_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_cxml_LIBRARY
+BLAS_cxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_dxml_LIBRARY
+BLAS_dxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_essl_LIBRARY
+BLAS_essl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_f77blas_LIBRARY
+BLAS_f77blas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_LIBRARY
+BLAS_mkl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_c_dll_LIBRARY
+BLAS_mkl_c_dll_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_em64t_LIBRARY
+BLAS_mkl_em64t_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_ia32_LIBRARY
+BLAS_mkl_ia32_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_intel_lp64_LIBRARY
+BLAS_mkl_intel_lp64_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_scsl_LIBRARY
+BLAS_scsl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_sgemm_LIBRARY
+BLAS_sgemm_LIBRARY-ADVANCED:INTERNAL=1
+//Have function sgemm_
+BLAS_sgemm__Accelerate_f2c_WORKS:INTERNAL=1
+//ADVANCED property for variable: BLAS_sunperf_LIBRARY
+BLAS_sunperf_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
@@ -1251,6 +1375,14 @@ IPOPT_DEFINITIONS-ADVANCED:INTERNAL=1
 IPOPT_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: IPOPT_LIBRARIES
 IPOPT_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_Accelerate_LIBRARY
+LAPACK_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_acml_LIBRARY
+LAPACK_acml_LIBRARY-ADVANCED:INTERNAL=1
+//Have function cheev_
+LAPACK_cheev__Accelerate_f2c_WORKS:INTERNAL=1
+//ADVANCED property for variable: LAPACK_mkl_lapack_LIBRARY
+LAPACK_mkl_lapack_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBXSMM
 LIBXSMM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND

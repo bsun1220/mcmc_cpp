@@ -15,7 +15,7 @@ class BarrierWalk{
             term_density = 0;
         }
 
-        void initialize(MatrixXd A_p, VectorXd b_p, float r);
+        virtual void initialize(MatrixXd A_p, VectorXd b_p, float r);
 
         void set_ts(float a);
 
@@ -30,7 +30,8 @@ class BarrierWalk{
         VectorXd generate_slack(VectorXd x);
         float local_norm(VectorXd v, MatrixXd m);
 
-        VectorXd generate_weight(VectorXd x);
+        virtual VectorXd generate_weight(VectorXd x);
+        virtual void printType();
 
         MatrixXd generate_hessian(VectorXd x);
 
