@@ -40,8 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/bennysun/mcmc_cpp/build/external/eigen/cmake_install.cmake")
-  include("/Users/bennysun/mcmc_cpp/build/external/ifopt/cmake_install.cmake")
-  include("/Users/bennysun/mcmc_cpp/build/external/pybind/cmake_install.cmake")
 
 endif()
 

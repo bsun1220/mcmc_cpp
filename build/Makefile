@@ -17256,236 +17256,29 @@ test_sparseLU/fast:
 	$(MAKE) $(MAKESILENT) -f external/eigen/bench/spbench/CMakeFiles/test_sparseLU.dir/build.make external/eigen/bench/spbench/CMakeFiles/test_sparseLU.dir/build
 .PHONY : test_sparseLU/fast
 
-#=============================================================================
-# Target rules for targets named ifopt_core
-
-# Build rule for target.
-ifopt_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ifopt_core
-.PHONY : ifopt_core
-
-# fast build rule for target.
-ifopt_core/fast:
-	$(MAKE) $(MAKESILENT) -f external/ifopt/ifopt_core/CMakeFiles/ifopt_core.dir/build.make external/ifopt/ifopt_core/CMakeFiles/ifopt_core.dir/build
-.PHONY : ifopt_core/fast
-
-#=============================================================================
-# Target rules for targets named ifopt_ipopt
-
-# Build rule for target.
-ifopt_ipopt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ifopt_ipopt
-.PHONY : ifopt_ipopt
-
-# fast build rule for target.
-ifopt_ipopt/fast:
-	$(MAKE) $(MAKESILENT) -f external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt.dir/build.make external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt.dir/build
-.PHONY : ifopt_ipopt/fast
-
-#=============================================================================
-# Target rules for targets named ifopt_ipopt-example
-
-# Build rule for target.
-ifopt_ipopt-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ifopt_ipopt-example
-.PHONY : ifopt_ipopt-example
-
-# fast build rule for target.
-ifopt_ipopt-example/fast:
-	$(MAKE) $(MAKESILENT) -f external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt-example.dir/build.make external/ifopt/ifopt_ipopt/CMakeFiles/ifopt_ipopt-example.dir/build
-.PHONY : ifopt_ipopt-example/fast
-
-barrier_walk.o: barrier_walk.cpp.o
-.PHONY : barrier_walk.o
+example.o: example.cpp.o
+.PHONY : example.o
 
 # target to build an object file
-barrier_walk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/barrier_walk.cpp.o
-.PHONY : barrier_walk.cpp.o
+example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/example.cpp.o
+.PHONY : example.cpp.o
 
-barrier_walk.i: barrier_walk.cpp.i
-.PHONY : barrier_walk.i
-
-# target to preprocess a source file
-barrier_walk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/barrier_walk.cpp.i
-.PHONY : barrier_walk.cpp.i
-
-barrier_walk.s: barrier_walk.cpp.s
-.PHONY : barrier_walk.s
-
-# target to generate assembly for a file
-barrier_walk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/barrier_walk.cpp.s
-.PHONY : barrier_walk.cpp.s
-
-central.o: central.cpp.o
-.PHONY : central.o
-
-# target to build an object file
-central.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/central.cpp.o
-.PHONY : central.cpp.o
-
-central.i: central.cpp.i
-.PHONY : central.i
+example.i: example.cpp.i
+.PHONY : example.i
 
 # target to preprocess a source file
-central.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/central.cpp.i
-.PHONY : central.cpp.i
+example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/example.cpp.i
+.PHONY : example.cpp.i
 
-central.s: central.cpp.s
-.PHONY : central.s
-
-# target to generate assembly for a file
-central.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/central.cpp.s
-.PHONY : central.cpp.s
-
-dikin_walk.o: dikin_walk.cpp.o
-.PHONY : dikin_walk.o
-
-# target to build an object file
-dikin_walk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikin_walk.cpp.o
-.PHONY : dikin_walk.cpp.o
-
-dikin_walk.i: dikin_walk.cpp.i
-.PHONY : dikin_walk.i
-
-# target to preprocess a source file
-dikin_walk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikin_walk.cpp.i
-.PHONY : dikin_walk.cpp.i
-
-dikin_walk.s: dikin_walk.cpp.s
-.PHONY : dikin_walk.s
+example.s: example.cpp.s
+.PHONY : example.s
 
 # target to generate assembly for a file
-dikin_walk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikin_walk.cpp.s
-.PHONY : dikin_walk.cpp.s
-
-dikinls_walk.o: dikinls_walk.cpp.o
-.PHONY : dikinls_walk.o
-
-# target to build an object file
-dikinls_walk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.o
-.PHONY : dikinls_walk.cpp.o
-
-dikinls_walk.i: dikinls_walk.cpp.i
-.PHONY : dikinls_walk.i
-
-# target to preprocess a source file
-dikinls_walk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.i
-.PHONY : dikinls_walk.cpp.i
-
-dikinls_walk.s: dikinls_walk.cpp.s
-.PHONY : dikinls_walk.s
-
-# target to generate assembly for a file
-dikinls_walk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/dikinls_walk.cpp.s
-.PHONY : dikinls_walk.cpp.s
-
-facial_reduction.o: facial_reduction.cpp.o
-.PHONY : facial_reduction.o
-
-# target to build an object file
-facial_reduction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/facial_reduction.cpp.o
-.PHONY : facial_reduction.cpp.o
-
-facial_reduction.i: facial_reduction.cpp.i
-.PHONY : facial_reduction.i
-
-# target to preprocess a source file
-facial_reduction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/facial_reduction.cpp.i
-.PHONY : facial_reduction.cpp.i
-
-facial_reduction.s: facial_reduction.cpp.s
-.PHONY : facial_reduction.s
-
-# target to generate assembly for a file
-facial_reduction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/facial_reduction.cpp.s
-.PHONY : facial_reduction.cpp.s
-
-john_walk.o: john_walk.cpp.o
-.PHONY : john_walk.o
-
-# target to build an object file
-john_walk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.o
-.PHONY : john_walk.cpp.o
-
-john_walk.i: john_walk.cpp.i
-.PHONY : john_walk.i
-
-# target to preprocess a source file
-john_walk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.i
-.PHONY : john_walk.cpp.i
-
-john_walk.s: john_walk.cpp.s
-.PHONY : john_walk.s
-
-# target to generate assembly for a file
-john_walk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/john_walk.cpp.s
-.PHONY : john_walk.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-vaidya_walk.o: vaidya_walk.cpp.o
-.PHONY : vaidya_walk.o
-
-# target to build an object file
-vaidya_walk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.o
-.PHONY : vaidya_walk.cpp.o
-
-vaidya_walk.i: vaidya_walk.cpp.i
-.PHONY : vaidya_walk.i
-
-# target to preprocess a source file
-vaidya_walk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.i
-.PHONY : vaidya_walk.cpp.i
-
-vaidya_walk.s: vaidya_walk.cpp.s
-.PHONY : vaidya_walk.s
-
-# target to generate assembly for a file
-vaidya_walk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/vaidya_walk.cpp.s
-.PHONY : vaidya_walk.cpp.s
+example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MCMC.dir/build.make CMakeFiles/MCMC.dir/example.cpp.s
+.PHONY : example.cpp.s
 
 # Help Target
 help:
@@ -18280,9 +18073,6 @@ help:
 	@echo "... householder_6"
 	@echo "... householder_7"
 	@echo "... householder_8"
-	@echo "... ifopt_core"
-	@echo "... ifopt_ipopt"
-	@echo "... ifopt_ipopt-example"
 	@echo "... incomplete_cholesky_1"
 	@echo "... incomplete_cholesky_2"
 	@echo "... incomplete_cholesky_3"
@@ -18817,30 +18607,9 @@ help:
 	@echo "... zblat2"
 	@echo "... zblat3"
 	@echo "... zerosized"
-	@echo "... barrier_walk.o"
-	@echo "... barrier_walk.i"
-	@echo "... barrier_walk.s"
-	@echo "... central.o"
-	@echo "... central.i"
-	@echo "... central.s"
-	@echo "... dikin_walk.o"
-	@echo "... dikin_walk.i"
-	@echo "... dikin_walk.s"
-	@echo "... dikinls_walk.o"
-	@echo "... dikinls_walk.i"
-	@echo "... dikinls_walk.s"
-	@echo "... facial_reduction.o"
-	@echo "... facial_reduction.i"
-	@echo "... facial_reduction.s"
-	@echo "... john_walk.o"
-	@echo "... john_walk.i"
-	@echo "... john_walk.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... vaidya_walk.o"
-	@echo "... vaidya_walk.i"
-	@echo "... vaidya_walk.s"
+	@echo "... example.o"
+	@echo "... example.i"
+	@echo "... example.s"
 .PHONY : help
 
 

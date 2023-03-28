@@ -1,43 +1,8 @@
 [
 {
   "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/main.cpp.o -c /Users/bennysun/mcmc_cpp/main.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/main.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/facial_reduction.cpp.o -c /Users/bennysun/mcmc_cpp/facial_reduction.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/facial_reduction.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/central.cpp.o -c /Users/bennysun/mcmc_cpp/central.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/central.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/vaidya_walk.cpp.o -c /Users/bennysun/mcmc_cpp/vaidya_walk.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/vaidya_walk.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/dikinls_walk.cpp.o -c /Users/bennysun/mcmc_cpp/dikinls_walk.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/dikinls_walk.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/john_walk.cpp.o -c /Users/bennysun/mcmc_cpp/john_walk.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/john_walk.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/dikin_walk.cpp.o -c /Users/bennysun/mcmc_cpp/dikin_walk.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/dikin_walk.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /Users/bennysun/mcmc_cpp/external/pybind/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/barrier_walk.cpp.o -c /Users/bennysun/mcmc_cpp/barrier_walk.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/barrier_walk.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/eigen -isystem /usr/local/include -isystem /opt/homebrew/include/eigen3 -isystem /opt/homebrew/include -isystem /Users/bennysun/opt/anaconda3/include/python3.9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/MCMC.dir/example.cpp.o -c /Users/bennysun/mcmc_cpp/example.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/example.cpp"
 },
 {
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/doc/examples",
@@ -1738,41 +1703,6 @@
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/doc/snippets",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_MAKING_DOCS -I/Users/bennysun/mcmc_cpp/build/external/eigen/doc/snippets -I/Users/bennysun/mcmc_cpp/external/eigen/doc/snippets -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/compile_tut_matrix_assignment_resizing.dir/compile_tut_matrix_assignment_resizing.cpp.o -c /Users/bennysun/mcmc_cpp/build/external/eigen/doc/snippets/compile_tut_matrix_assignment_resizing.cpp",
   "file": "/Users/bennysun/mcmc_cpp/build/external/eigen/doc/snippets/compile_tut_matrix_assignment_resizing.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_10=1 -std=gnu++11 -o CMakeFiles/bdcsvd_10.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_1=1 -std=gnu++11 -o CMakeFiles/bdcsvd_1.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_9=1 -std=gnu++11 -o CMakeFiles/bdcsvd_9.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_2=1 -std=gnu++11 -o CMakeFiles/bdcsvd_2.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_102=1 -std=gnu++11 -o CMakeFiles/bdcsvd_102.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_5=1 -std=gnu++11 -o CMakeFiles/bdcsvd_5.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_6=1 -std=gnu++11 -o CMakeFiles/bdcsvd_6.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
 },
 {
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
@@ -4161,6 +4091,46 @@
 },
 {
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_101=1 -std=gnu++11 -o CMakeFiles/bdcsvd_101.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_102=1 -std=gnu++11 -o CMakeFiles/bdcsvd_102.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_5=1 -std=gnu++11 -o CMakeFiles/bdcsvd_5.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_6=1 -std=gnu++11 -o CMakeFiles/bdcsvd_6.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_10=1 -std=gnu++11 -o CMakeFiles/bdcsvd_10.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_1=1 -std=gnu++11 -o CMakeFiles/bdcsvd_1.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_9=1 -std=gnu++11 -o CMakeFiles/bdcsvd_9.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_2=1 -std=gnu++11 -o CMakeFiles/bdcsvd_2.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
+  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
+},
+{
+  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=householder  -DEIGEN_TEST_PART_1=1 -std=gnu++11 -o CMakeFiles/householder_1.dir/householder.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/householder.cpp",
   "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/householder.cpp"
 },
@@ -5063,11 +5033,6 @@
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=metis_support  -DEIGEN_TEST_PART_1=1 -std=gnu++11 -o CMakeFiles/metis_support_1.dir/metis_support.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/metis_support.cpp",
   "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/metis_support.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen/test -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5  -DEIGEN_TEST_MAX_SIZE=320 -DEIGEN_TEST_FUNC=bdcsvd  -DEIGEN_TEST_PART_101=1 -std=gnu++11 -o CMakeFiles/bdcsvd_101.dir/bdcsvd.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp",
-  "file": "/Users/bennysun/mcmc_cpp/external/eigen/test/bdcsvd.cpp"
 },
 {
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/test",
@@ -6463,35 +6428,5 @@
   "directory": "/Users/bennysun/mcmc_cpp/build/external/eigen/bench/spbench",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DEIGEN_METIS_SUPPORT -I/Users/bennysun/mcmc_cpp/build/external/eigen/bench/spbench -I/Users/bennysun/mcmc_cpp/external/eigen/bench/spbench -I/Users/bennysun/mcmc_cpp/external/eigen -I/Users/bennysun/mcmc_cpp/build/external/eigen -I/opt/homebrew/include/.  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/test_sparseLU.dir/test_sparseLU.cpp.o -c /Users/bennysun/mcmc_cpp/external/eigen/bench/spbench/test_sparseLU.cpp",
   "file": "/Users/bennysun/mcmc_cpp/external/eigen/bench/spbench/test_sparseLU.cpp"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_core",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Difopt_core_EXPORTS -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC -std=gnu++11 -o CMakeFiles/ifopt_core.dir/src/problem.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/problem.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/problem.cc"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_core",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Difopt_core_EXPORTS -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC -std=gnu++11 -o CMakeFiles/ifopt_core.dir/src/composite.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/composite.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/composite.cc"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_core",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Difopt_core_EXPORTS -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC -std=gnu++11 -o CMakeFiles/ifopt_core.dir/src/leaves.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/leaves.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/src/leaves.cc"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_ipopt",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Difopt_ipopt_EXPORTS -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/include -I/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC -std=gnu++11 -o CMakeFiles/ifopt_ipopt.dir/src/ipopt_adapter.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/src/ipopt_adapter.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/src/ipopt_adapter.cc"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_ipopt",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Difopt_ipopt_EXPORTS -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/include -I/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC -std=gnu++11 -o CMakeFiles/ifopt_ipopt.dir/src/ipopt_solver.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/src/ipopt_solver.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/src/ipopt_solver.cc"
-},
-{
-  "directory": "/Users/bennysun/mcmc_cpp/build/external/ifopt/ifopt_ipopt",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/include -I/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_core/test -I/opt/homebrew/include/eigen3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++11 -o CMakeFiles/ifopt_ipopt-example.dir/test/ex_test_ipopt.cc.o -c /Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/test/ex_test_ipopt.cc",
-  "file": "/Users/bennysun/mcmc_cpp/external/ifopt/ifopt_ipopt/test/ex_test_ipopt.cc"
 }
 ]

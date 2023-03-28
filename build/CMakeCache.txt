@@ -20,75 +20,6 @@ ADOLC_INCLUDES:PATH=ADOLC_INCLUDES-NOTFOUND
 //Path to a library.
 ADOLC_LIBRARIES:FILEPATH=ADOLC_LIBRARIES-NOTFOUND
 
-//Path to a library.
-BLAS_Accelerate_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
-
-//Compilation options to use BLAS
-BLAS_DEFINITIONS:STRING=-DBLAS_USE_F2C
-
-//Directories containing the BLAS header files
-BLAS_INCLUDE_DIR:PATH=
-
-//BLAS libraries name
-BLAS_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
-
-//Directories containing the BLAS libraries
-BLAS_LIBRARIES_DIR:PATH=
-
-//Linker flags to use BLAS
-BLAS_LINKER_FLAGS:STRING=
-
-//Path to a library.
-BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_cblas_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/lib/libcblas.tbd
-
-//Path to a library.
-BLAS_complib.sgimath_LIBRARY:FILEPATH=BLAS_complib.sgimath_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_cxml_LIBRARY:FILEPATH=BLAS_cxml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_dxml_LIBRARY:FILEPATH=BLAS_dxml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_essl_LIBRARY:FILEPATH=BLAS_essl_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_f77blas_LIBRARY:FILEPATH=BLAS_f77blas_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_LIBRARY:FILEPATH=BLAS_mkl_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_c_dll_LIBRARY:FILEPATH=BLAS_mkl_c_dll_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_em64t_LIBRARY:FILEPATH=BLAS_mkl_em64t_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_ia32_LIBRARY:FILEPATH=BLAS_mkl_ia32_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_intel_lp64_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_scsl_LIBRARY:FILEPATH=BLAS_scsl_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_sgemm_LIBRARY:FILEPATH=BLAS_sgemm_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_sunperf_LIBRARY:FILEPATH=BLAS_sunperf_LIBRARY-NOTFOUND
-
-//compile with IPOPT solver
-BUILD_IPOPT:BOOL=ON
-
-//compile with SNOPT solver
-BUILD_SNOPT:BOOL=OFF
-
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
@@ -315,21 +246,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=MCMC
 
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=2.0.6
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=2
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=6
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
-
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
 
@@ -488,9 +404,6 @@ CUDA_cufftemu_LIBRARY:FILEPATH=CUDA_cufftemu_LIBRARY-NOTFOUND
 DART_TESTING_TIMEOUT:STRING=1500
 
 //Path to a file.
-EIGEN3_INCLUDE_DIR:PATH=/opt/homebrew/include/eigen3
-
-//Path to a file.
 EIGEN_BIN_BASH_EXISTS:FILEPATH=//bin/bash
 
 //Build benchmark suite
@@ -624,9 +537,6 @@ EIGEN_TEST_ZVECTOR:BOOL=OFF
 //Value Computed by CMake
 Eigen3_BINARY_DIR:STATIC=/Users/bennysun/mcmc_cpp/build/external/eigen
 
-//The directory containing a CMake configuration file for Eigen3.
-Eigen3_DIR:PATH=Eigen3_DIR-NOTFOUND
-
 //Value Computed by CMake
 Eigen3_IS_TOP_LEVEL:STATIC=OFF
 
@@ -668,9 +578,6 @@ EigenLapack_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 EigenLapack_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/eigen/lapack
-
-//The directory containing a CMake configuration file for F2C.
-F2C_DIR:PATH=F2C_DIR-NOTFOUND
 
 //Path to a library.
 FFTWF_LIB:FILEPATH=FFTWF_LIB-NOTFOUND
@@ -714,57 +621,9 @@ GMP_LIBRARIES:FILEPATH=/opt/homebrew/lib/libgmp.dylib
 //Path to a file.
 GOOGLEHASH_INCLUDES:PATH=GOOGLEHASH_INCLUDES-NOTFOUND
 
-//Path to a file.
-GTEST_INCLUDE_DIR:PATH=GTEST_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-GTEST_LIBRARY:FILEPATH=GTEST_LIBRARY-NOTFOUND
-
-//Path to a library.
-GTEST_LIBRARY_DEBUG:FILEPATH=GTEST_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
-
-//Path to a library.
-GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
-
 //The directory relative to CMAKE_PREFIX_PATH where Eigen header
 // files are installed
 INCLUDE_INSTALL_DIR:PATH=include/eigen3
-
-//Additional compiler flags for IPOPT
-IPOPT_DEFINITIONS:STRING=
-
-//IPOPT include directory
-IPOPT_INCLUDE_DIRS:PATH=/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-
-//IPOPT libraries
-IPOPT_LIBRARIES:STRING=
-
-//Path to a library.
-LAPACK_Accelerate_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
-
-//Compilation options to use LAPACK
-LAPACK_DEFINITIONS:STRING=-DLAPACK_USE_F2C
-
-//Directories containing the LAPACK header files
-LAPACK_INCLUDE_DIR:PATH=
-
-//LAPACK libraries name
-LAPACK_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework
-
-//Directories containing the LAPACK libraries
-LAPACK_LIBRARIES_DIR:PATH=
-
-//Linker flags to use LAPACK
-LAPACK_LINKER_FLAGS:STRING=
-
-//Path to a library.
-LAPACK_acml_LIBRARY:FILEPATH=LAPACK_acml_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_mkl_lapack_LIBRARY:FILEPATH=LAPACK_mkl_lapack_LIBRARY-NOTFOUND
 
 //Path to a file.
 LIBXSMM:PATH=LIBXSMM-NOTFOUND
@@ -827,31 +686,12 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/opt/homebrew/bin/pkg-config
 
-//Force new FindPython
-PYBIND11_FINDPYTHON:BOOL=OFF
-
-//Install pybind11 header files?
-PYBIND11_INSTALL:BOOL=OFF
-
-//Override the ABI version, may be used to enable the unstable
-// ABI.
-PYBIND11_INTERNALS_VERSION:STRING=
-
-//Disable search for Python
-PYBIND11_NOPYTHON:BOOL=OFF
-
 //Overwrite cached values read from Python library (classic search).
 // Turn off if cross-compiling and manually setting these values.
 PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
 
 //Python version to use for compiling modules
 PYBIND11_PYTHON_VERSION:STRING=
-
-//Use simpler GIL management logic that does not support disassociation
-PYBIND11_SIMPLE_GIL_MANAGEMENT:BOOL=OFF
-
-//Build pybind11 test suite?
-PYBIND11_TEST:BOOL=OFF
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/Users/bennysun/opt/anaconda3/bin/python
@@ -894,38 +734,11 @@ UMFPACK_LIBRARIES:FILEPATH=UMFPACK_LIBRARIES-NOTFOUND
 //Dependencies for the target
 eigen_lapack_LIB_DEPENDS:STATIC=general;eigen_blas;
 
-//Value Computed by CMake
-ifopt_BINARY_DIR:STATIC=/Users/bennysun/mcmc_cpp/build/external/ifopt
-
 //The directory containing a CMake configuration file for ifopt.
 ifopt_DIR:PATH=/usr/local/share/ifopt/cmake
 
-//Value Computed by CMake
-ifopt_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ifopt_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/ifopt
-
-//Dependencies for the target
-ifopt_ipopt_LIB_DEPENDS:STATIC=general;ifopt_core;general;/opt/homebrew/lib/libipopt.dylib;
-
-//Path to a library.
-ipopt_PATH:FILEPATH=/opt/homebrew/lib/libipopt.dylib
-
-//Path to a library.
-pkgcfg_lib__PC_IPOPT_ipopt:FILEPATH=/opt/homebrew/Cellar/ipopt/3.14.11/lib/libipopt.dylib
-
-//Value Computed by CMake
-pybind11_BINARY_DIR:STATIC=/Users/bennysun/mcmc_cpp/build/external/pybind
-
 //The directory containing a CMake configuration file for pybind11.
 pybind11_DIR:PATH=/opt/homebrew/share/cmake/pybind11
-
-//Value Computed by CMake
-pybind11_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-pybind11_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/pybind
 
 
 ########################
@@ -936,40 +749,6 @@ pybind11_SOURCE_DIR:STATIC=/Users/bennysun/mcmc_cpp/external/pybind
 ADOLC_INCLUDES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ADOLC_LIBRARIES
 ADOLC_LIBRARIES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_Accelerate_LIBRARY
-BLAS_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_acml_LIBRARY
-BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_cblas_LIBRARY
-BLAS_cblas_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_complib.sgimath_LIBRARY
-BLAS_complib.sgimath_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_cxml_LIBRARY
-BLAS_cxml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_dxml_LIBRARY
-BLAS_dxml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_essl_LIBRARY
-BLAS_essl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_f77blas_LIBRARY
-BLAS_f77blas_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_LIBRARY
-BLAS_mkl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_c_dll_LIBRARY
-BLAS_mkl_c_dll_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_em64t_LIBRARY
-BLAS_mkl_em64t_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_ia32_LIBRARY
-BLAS_mkl_ia32_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_intel_lp64_LIBRARY
-BLAS_mkl_intel_lp64_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_scsl_LIBRARY
-BLAS_scsl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_sgemm_LIBRARY
-BLAS_sgemm_LIBRARY-ADVANCED:INTERNAL=1
-//Have function sgemm_
-BLAS_sgemm__Accelerate_f2c_WORKS:INTERNAL=1
-//ADVANCED property for variable: BLAS_sunperf_LIBRARY
-BLAS_sunperf_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
@@ -1124,7 +903,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1299,8 +1078,6 @@ CUDA_parse_cubin:INTERNAL=/opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/
 CUDA_run_nvcc:INTERNAL=/opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/FindCUDA/run_nvcc.cmake
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: EIGEN3_INCLUDE_DIR
-EIGEN3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Test EIGEN_COMPILER_SUPPORT_CPP11
 EIGEN_COMPILER_SUPPORT_CPP11:INTERNAL=1
 //Test EIGEN_COMPILER_SUPPORT_CXX11
@@ -1315,14 +1092,10 @@ FFTWL_LIB-ADVANCED:INTERNAL=1
 FFTW_INCLUDES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FFTW_LIB
 FFTW_LIB-ADVANCED:INTERNAL=1
-//Details about finding Eigen3
-FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/opt/homebrew/include/eigen3][TRUE][v(2.91.0)]
 //Details about finding GLUT
 FIND_PACKAGE_MESSAGE_DETAILS_GLUT:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/Headers][v()]
 //Details about finding GMP
 FIND_PACKAGE_MESSAGE_DETAILS_GMP:INTERNAL=[/opt/homebrew/include][/opt/homebrew/lib/libgmp.dylib][v()]
-//Details about finding IPOPT
-FIND_PACKAGE_MESSAGE_DETAILS_IPOPT:INTERNAL=[/opt/homebrew/lib/libipopt.dylib][v(3.11.9)]
 //Details about finding METIS
 FIND_PACKAGE_MESSAGE_DETAILS_METIS:INTERNAL=[/opt/homebrew/include/.][/opt/homebrew/lib/libmetis.dylib][TRUE][v()]
 //Details about finding MPFR
@@ -1333,6 +1106,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTool
 FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/bennysun/opt/anaconda3/bin/python3.9.7
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/homebrew/bin/pkg-config][v0.29.2()]
+//Details about finding Python
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11][/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11][/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib][cfound components: Interpreter Development Development.Module Development.Embed ][v3.11.2()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/bennysun/opt/anaconda3/bin/python][v3.9.7(3.6)]
 //Details about finding Threads
@@ -1355,34 +1130,10 @@ GMP_INCLUDES-ADVANCED:INTERNAL=1
 GMP_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GOOGLEHASH_INCLUDES
 GOOGLEHASH_INCLUDES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_INCLUDE_DIR
-GTEST_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_LIBRARY
-GTEST_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_LIBRARY_DEBUG
-GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_MAIN_LIBRARY
-GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
-GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //Test HAS_FLTO
 HAS_FLTO:INTERNAL=1
 //Test HAS_FLTO_THIN
 HAS_FLTO_THIN:INTERNAL=1
-//ADVANCED property for variable: IPOPT_DEFINITIONS
-IPOPT_DEFINITIONS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: IPOPT_INCLUDE_DIRS
-IPOPT_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: IPOPT_LIBRARIES
-IPOPT_LIBRARIES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_Accelerate_LIBRARY
-LAPACK_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_acml_LIBRARY
-LAPACK_acml_LIBRARY-ADVANCED:INTERNAL=1
-//Have function cheev_
-LAPACK_cheev__Accelerate_f2c_WORKS:INTERNAL=1
-//ADVANCED property for variable: LAPACK_mkl_lapack_LIBRARY
-LAPACK_mkl_lapack_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBXSMM
 LIBXSMM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
@@ -1467,7 +1218,8 @@ PKG_FFTW_fftw3_INCLUDEDIR:INTERNAL=
 PKG_FFTW_fftw3_LIBDIR:INTERNAL=
 PKG_FFTW_fftw3_PREFIX:INTERNAL=
 PKG_FFTW_fftw3_VERSION:INTERNAL=
-PYBIND11_INCLUDE_DIR:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include
+//Python executable during the last CMake run
+PYBIND11_PYTHON_EXECUTABLE_LAST:INTERNAL=/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 PYTHON_INCLUDE_DIRS:INTERNAL=/Users/bennysun/opt/anaconda3/include/python3.9
@@ -1509,55 +1261,28 @@ _Boost_NAMESPACE_LAST:INTERNAL=boost
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/bennysun/Installations
-_PC_IPOPT_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-_PC_IPOPT_CFLAGS_I:INTERNAL=
-_PC_IPOPT_CFLAGS_OTHER:INTERNAL=
-_PC_IPOPT_FOUND:INTERNAL=1
-_PC_IPOPT_INCLUDEDIR:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-_PC_IPOPT_INCLUDE_DIRS:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-_PC_IPOPT_LDFLAGS:INTERNAL=-L/opt/homebrew/Cellar/ipopt/3.14.11/lib;-lipopt
-_PC_IPOPT_LDFLAGS_OTHER:INTERNAL=
-_PC_IPOPT_LIBDIR:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/lib
-_PC_IPOPT_LIBRARIES:INTERNAL=ipopt
-_PC_IPOPT_LIBRARY_DIRS:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/lib
-_PC_IPOPT_LIBS:INTERNAL=
-_PC_IPOPT_LIBS_L:INTERNAL=
-_PC_IPOPT_LIBS_OTHER:INTERNAL=
-_PC_IPOPT_LIBS_PATHS:INTERNAL=
-_PC_IPOPT_MODULE_NAME:INTERNAL=ipopt
-_PC_IPOPT_PREFIX:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11
-_PC_IPOPT_STATIC_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-_PC_IPOPT_STATIC_CFLAGS_I:INTERNAL=
-_PC_IPOPT_STATIC_CFLAGS_OTHER:INTERNAL=
-_PC_IPOPT_STATIC_INCLUDE_DIRS:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/include/coin-or
-_PC_IPOPT_STATIC_LDFLAGS:INTERNAL=-L/opt/homebrew/Cellar/ipopt/3.14.11/lib;-lipopt
-_PC_IPOPT_STATIC_LDFLAGS_OTHER:INTERNAL=
-_PC_IPOPT_STATIC_LIBDIR:INTERNAL=
-_PC_IPOPT_STATIC_LIBRARIES:INTERNAL=ipopt
-_PC_IPOPT_STATIC_LIBRARY_DIRS:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/lib
-_PC_IPOPT_STATIC_LIBS:INTERNAL=
-_PC_IPOPT_STATIC_LIBS_L:INTERNAL=
-_PC_IPOPT_STATIC_LIBS_OTHER:INTERNAL=
-_PC_IPOPT_STATIC_LIBS_PATHS:INTERNAL=
-_PC_IPOPT_VERSION:INTERNAL=3.14.11
-_PC_IPOPT_ipopt_INCLUDEDIR:INTERNAL=
-_PC_IPOPT_ipopt_LIBDIR:INTERNAL=
-_PC_IPOPT_ipopt_PREFIX:INTERNAL=
-_PC_IPOPT_ipopt_VERSION:INTERNAL=
 _Python:INTERNAL=PYTHON
-__pkg_config_arguments__PC_IPOPT:INTERNAL=REQUIRED;ipopt>=3.11.9
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+_Python_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=fab51950779a06b33189cfc7876d5e7d
+_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=83b9fcccc58f221347584ec24ce40112
+//Path to a program.
+_Python_EXECUTABLE:INTERNAL=/opt/homebrew/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+//Path to a file.
+_Python_INCLUDE_DIR:INTERNAL=/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;2;64;;cpython-311-darwin;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages;/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=91fa6b41055f536ea0963b4ef9ef5b99
+//Interpreter reason failure
+_Python_Interpreter_REASON_FAILURE:INTERNAL=
+//Path to a library.
+_Python_LIBRARY_RELEASE:INTERNAL=/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
 __pkg_config_checked_PC_GLUT:INTERNAL=1
 __pkg_config_checked_PKG_FFTW:INTERNAL=1
-__pkg_config_checked__PC_IPOPT:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib__PC_IPOPT_ipopt
-pkgcfg_lib__PC_IPOPT_ipopt-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/opt/homebrew/Cellar/ipopt/3.14.11/lib
-//True if pybind11 and all required components found on the system
-pybind11_FOUND:INTERNAL=TRUE
-//Directory where pybind11 headers are located
-pybind11_INCLUDE_DIR:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=/Users/bennysun/mcmc_cpp/external/pybind/include;/Users/bennysun/opt/anaconda3/include/python3.9
+pybind11_INCLUDE_DIRS:INTERNAL=/opt/homebrew/include;/Users/bennysun/opt/anaconda3/include/python3.9
 //Test standard_math_library_linked_to_automatically
 standard_math_library_linked_to_automatically:INTERNAL=1
 

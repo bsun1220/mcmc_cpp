@@ -7,6 +7,7 @@
 #include "central.hpp"
 #include "facial_reduction.hpp"
 
+
 VectorXd convert_back(VectorXd z, VectorXd pb, MatrixXd M_inv, int x_dim){
     VectorXd val (z.rows() + pb.rows());
     val << pb, z;
@@ -78,6 +79,9 @@ int main(){
     JohnWalk j(0.1, 100, 0.01);
     DikinWalk d;
 
-    cout << full_run(A, b, dl, 0.4, 1000) << endl;
+    cout << full_run(A, b, v, 0.4, 10) << endl;
+    cout << full_run(A, b, dl, 0.4, 10) << endl;
+    cout << full_run(A, b, j, 0.4, 10) << endl;
+    cout << full_run(A, b, d, 0.4, 10) << endl;
 
 }

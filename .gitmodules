@@ -1,9 +1,4 @@
-[submodule "external/pybind"]
-	path = external/pybind
-	url = https://github.com/pybind/pybind11.git
+
 [submodule "external/eigen"]
 	path = external/eigen
 	url = https://github.com/libigl/eigen.git
-[submodule "external/ifopt"]
-	path = external/ifopt
-	url = https://github.com/ethz-adrl/ifopt.git
