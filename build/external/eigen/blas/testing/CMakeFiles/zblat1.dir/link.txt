@@ -1,1 +1,0 @@
-/opt/homebrew/bin/gfortran -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 CMakeFiles/zblat1.dir/zblat1.f.o -o zblat1  ../libeigen_blas.dylib 
