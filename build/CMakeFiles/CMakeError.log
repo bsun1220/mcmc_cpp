@@ -1,0 +1,70 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-gIsNV9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da961/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_da961.dir/build.make CMakeFiles/cmTC_da961.dir/build
+Building CXX object CMakeFiles/cmTC_da961.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -Wlogical-op -MD -MT CMakeFiles/cmTC_da961.dir/src.cxx.o -MF CMakeFiles/cmTC_da961.dir/src.cxx.o.d -o CMakeFiles/cmTC_da961.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-gIsNV9/src.cxx
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_da961.dir/src.cxx.o] Error 1
+make: *** [cmTC_da961/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-niazse
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63c3b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_63c3b.dir/build.make CMakeFiles/cmTC_63c3b.dir/build
+Building CXX object CMakeFiles/cmTC_63c3b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd981 -MD -MT CMakeFiles/cmTC_63c3b.dir/src.cxx.o -MF CMakeFiles/cmTC_63c3b.dir/src.cxx.o.d -o CMakeFiles/cmTC_63c3b.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-niazse/src.cxx
+clang: error: unknown argument: '-wd981'
+make[1]: *** [CMakeFiles/cmTC_63c3b.dir/src.cxx.o] Error 1
+make: *** [cmTC_63c3b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-P65Spz
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_adcf9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_adcf9.dir/build.make CMakeFiles/cmTC_adcf9.dir/build
+Building CXX object CMakeFiles/cmTC_adcf9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -wd2304 -MD -MT CMakeFiles/cmTC_adcf9.dir/src.cxx.o -MF CMakeFiles/cmTC_adcf9.dir/src.cxx.o.d -o CMakeFiles/cmTC_adcf9.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-P65Spz/src.cxx
+clang: error: unknown argument: '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_adcf9.dir/src.cxx.o] Error 1
+make: *** [cmTC_adcf9/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-VnbyeC
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_53e54/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_53e54.dir/build.make CMakeFiles/cmTC_53e54.dir/build
+Building CXX object CMakeFiles/cmTC_53e54.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -strict-ansi -MD -MT CMakeFiles/cmTC_53e54.dir/src.cxx.o -MF CMakeFiles/cmTC_53e54.dir/src.cxx.o.d -o CMakeFiles/cmTC_53e54.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-VnbyeC/src.cxx
+clang: error: unknown argument: '-strict-ansi'
+make[1]: *** [CMakeFiles/cmTC_53e54.dir/src.cxx.o] Error 1
+make: *** [cmTC_53e54/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP failed with the following output:
+Change Dir: /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wnZJnt
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a8faf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a8faf.dir/build.make CMakeFiles/cmTC_a8faf.dir/build
+Building CXX object CMakeFiles/cmTC_a8faf.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5   -fopenmp -MD -MT CMakeFiles/cmTC_a8faf.dir/src.cxx.o -MF CMakeFiles/cmTC_a8faf.dir/src.cxx.o.d -o CMakeFiles/cmTC_a8faf.dir/src.cxx.o -c /Users/bennysun/mcmc_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wnZJnt/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_a8faf.dir/src.cxx.o] Error 1
+make: *** [cmTC_a8faf/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
