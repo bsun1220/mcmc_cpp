@@ -1,1 +1,0 @@
-/opt/homebrew/bin/gfortran -O3 -DNDEBUG -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 CMakeFiles/dblat2.dir/dblat2.f.o -o dblat2  ../libeigen_blas.dylib 
