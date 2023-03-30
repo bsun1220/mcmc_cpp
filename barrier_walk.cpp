@@ -20,8 +20,13 @@ bool BarrierWalk::accept_reject(VectorXd z){
 }
 
 float BarrierWalk::generate_gaussian(){
-    float r1 = (float)rand()/RAND_MAX;
-    float r2 = (float)rand()/RAND_MAX;
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<> dis(0.0, 1.0);
+
+    float r1 = dis(gen);
+    float r2 = dis(gen);
+
     return sqrt(-2.0 * log(r1)) * cos((2.0 * M_PI * r2));
 }
 
@@ -42,7 +47,6 @@ float BarrierWalk::local_norm(VectorXd v, MatrixXd m){
 }
 
 VectorXd BarrierWalk::generate_weight(VectorXd x){
-    cout << "no" << endl;
     int d = b.rows();
     return VectorXd::Zero(d);
 }
@@ -73,6 +77,9 @@ void BarrierWalk::printType(){
 
 MatrixXd BarrierWalk::generate_complete_walk(int num_steps, VectorXd x){
     MatrixXd results = MatrixXd::Zero(num_steps, A.cols());
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<> dis(0.0, 1.0);
     float one = 1.0;
     for(int i = 0; i < num_steps; i++){
         VectorXd z = generate_sample(x);
@@ -80,7 +87,7 @@ MatrixXd BarrierWalk::generate_complete_walk(int num_steps, VectorXd x){
             float g_x_z = generate_proposal_density(x, z);
             float g_z_x = generate_proposal_density(z, x);
             float alpha = min(one, g_z_x/g_x_z);
-            float val = (float)rand()/RAND_MAX;
+            float val = dis(gen);
             x = val < alpha ? z : x;
         }
         results.row(i) = x.transpose();
