@@ -34,7 +34,6 @@ MatrixXd full_run(MatrixXd A, VectorXd b, BarrierWalk& walk,float r, int num_sim
 
     } else {
         walk.initialize(A, b, r);
-        walk.printType();
         VectorXd x = find_central_point(A, b, 10000.0, 0.00001, 100000);
         MatrixXd results = walk.generate_complete_walk(num_sim, x);
         return results;
