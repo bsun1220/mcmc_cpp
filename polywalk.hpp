@@ -7,20 +7,12 @@
 #include "central.hpp"
 #include "facial_reduction.hpp"
 
-
 VectorXd convert_back(VectorXd z, VectorXd pb, MatrixXd M_inv, int x_dim){
     VectorXd val (z.rows() + pb.rows());
     val << pb, z;
     return (M_inv * val).head(x_dim);
 };
 
-MatrixXd full_run(MatrixXd A, VectorXd b, BarrierWalk& walk, float r, int num_sim){
-    int x_dim = A.cols();
-    problem_result fr = reduce_problem(A, b);
-    return A;
-}
-
-/*
 MatrixXd full_run(MatrixXd A, VectorXd b, BarrierWalk& walk,float r, int num_sim){
     int x_dim = A.cols();
 
@@ -47,5 +39,5 @@ MatrixXd full_run(MatrixXd A, VectorXd b, BarrierWalk& walk,float r, int num_sim
         MatrixXd results = walk.generate_complete_walk(num_sim, x);
         return results;
     }
-};*/
+};
 
