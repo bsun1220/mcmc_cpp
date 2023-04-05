@@ -23,8 +23,8 @@ class DikinLSWalk: public BarrierWalk{
             BarrierWalk::set_td(td);
         }
 
-        VectorXd vect_pow(VectorXd x, float alpha);
-        VectorXd generate_weight(VectorXd x);
-        VectorXd gradient_descent(VectorXd x, float adj, int sim, float grad_lim);
+        VectorXd vect_pow(VectorXd& x, float alpha);
+        VectorXd generate_weight(VectorXd& x);
+        VectorXd gradient_descent(VectorXd& x, float adj, int sim, float grad_lim);
         void printType();
 };

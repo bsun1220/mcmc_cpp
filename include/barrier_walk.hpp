@@ -21,25 +21,25 @@ class BarrierWalk{
 
         void set_td(float b);
 
-        bool accept_reject(VectorXd z);
+        bool accept_reject(VectorXd& z);
 
         float generate_gaussian();
 
         VectorXd generate_gaussian_rv(int d);
 
-        VectorXd generate_slack(VectorXd x);
-        float local_norm(VectorXd v, MatrixXd m);
+        VectorXd generate_slack(VectorXd& x);
+        float local_norm(VectorXd v, MatrixXd& m);
 
-        virtual VectorXd generate_weight(VectorXd x);
+        virtual VectorXd generate_weight(VectorXd& x);
         virtual void printType();
 
-        MatrixXd generate_hessian(VectorXd x);
+        MatrixXd generate_hessian(VectorXd& x);
 
-        float generate_proposal_density(VectorXd x, VectorXd z);
+        float generate_proposal_density(VectorXd& x, VectorXd& z);
 
-        VectorXd generate_sample(VectorXd x);
+        VectorXd generate_sample(VectorXd& x);
 
-        MatrixXd generate_complete_walk(int num_steps, VectorXd x);
+        MatrixXd generate_complete_walk(int num_steps, VectorXd& x);
 };
 
 

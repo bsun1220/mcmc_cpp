@@ -15,7 +15,7 @@ void BarrierWalk::set_td(float b){
     term_density = b; 
 }
 
-bool BarrierWalk::accept_reject(VectorXd z){
+bool BarrierWalk::accept_reject(VectorXd& z){
     return ((A * z) - b).maxCoeff() <= 0;
 }
 
@@ -38,34 +38,34 @@ VectorXd BarrierWalk::generate_gaussian_rv(int d){
     return v;
 }
 
-VectorXd BarrierWalk::generate_slack(VectorXd x){
+VectorXd BarrierWalk::generate_slack(VectorXd& x){
     return (b - (A * x));
 }
 
-float BarrierWalk::local_norm(VectorXd v, MatrixXd m){
+float BarrierWalk::local_norm(VectorXd v, MatrixXd& m){
     return ((v.transpose() * m) * v)(0);
 }
 
-VectorXd BarrierWalk::generate_weight(VectorXd x){
+VectorXd BarrierWalk::generate_weight(VectorXd& x){
     int d = b.rows();
     return VectorXd::Zero(d);
 }
 
-MatrixXd BarrierWalk::generate_hessian(VectorXd x){
+MatrixXd BarrierWalk::generate_hessian(VectorXd& x){
     MatrixXd weights = generate_weight(x).asDiagonal().toDenseMatrix();
     MatrixXd slack_inv = generate_slack(x).asDiagonal().toDenseMatrix().inverse();
 
     return A.transpose() * slack_inv * weights * slack_inv * A;
 }
 
-float BarrierWalk::generate_proposal_density(VectorXd x, VectorXd z){
+float BarrierWalk::generate_proposal_density(VectorXd& x, VectorXd& z){
     MatrixXd matrix = generate_hessian(x);
     VectorXd d = generate_gaussian_rv(x.rows());
 
     return sqrt(matrix.determinant()) * exp(term_density * local_norm(x - z, matrix));
 }
 
-VectorXd BarrierWalk::generate_sample(VectorXd x){
+VectorXd BarrierWalk::generate_sample(VectorXd& x){
     MatrixXd matrix = generate_hessian(x).inverse().sqrt();
     VectorXd direction = generate_gaussian_rv(x.rows());
     return x + term_sample * (matrix * direction);
@@ -75,7 +75,7 @@ void BarrierWalk::printType(){
     cout << "Generic Barrier" << endl;
 }
 
-MatrixXd BarrierWalk::generate_complete_walk(int num_steps, VectorXd x){
+MatrixXd BarrierWalk::generate_complete_walk(int num_steps, VectorXd& x){
     MatrixXd results = MatrixXd::Zero(num_steps, A.cols());
     random_device rd;
     mt19937 gen(rd());

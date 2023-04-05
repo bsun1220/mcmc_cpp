@@ -22,9 +22,9 @@ class JohnWalk: public BarrierWalk{
             BarrierWalk::set_td(td);
         }
 
-        VectorXd vect_pow(VectorXd x, float alpha);
-        VectorXd gradient_descent(VectorXd x, float adj, int sim, float grad_lim);
-        VectorXd generate_weight(VectorXd x);
+        VectorXd vect_pow(VectorXd& x, float alpha);
+        VectorXd gradient_descent(VectorXd& x, float adj, int sim, float grad_lim);
+        VectorXd generate_weight(VectorXd& x);
 
         void printType();
 };

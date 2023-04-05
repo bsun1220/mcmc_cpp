@@ -14,8 +14,8 @@ class VaidyaWalk: public BarrierWalk{
             BarrierWalk::set_ts(ts);
             BarrierWalk::set_td(td);
         }
-        VectorXd generate_weight(VectorXd x);
-        VectorXd generate_dikin_weight(VectorXd x);
-        MatrixXd generate_dikin_hessian(VectorXd x);
+        VectorXd generate_weight(VectorXd& x);
+        VectorXd generate_dikin_weight(VectorXd& x);
+        MatrixXd generate_dikin_hessian(VectorXd& x);
         void printType();
 };

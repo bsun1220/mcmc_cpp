@@ -39,9 +39,9 @@ VectorXd find_central_point(MatrixXd A, VectorXd b, double ss, double ts, double
         VectorXd grad = c + A_tilde.transpose() * slack/t;
         MatrixXd slack_mat = slack.asDiagonal().toDenseMatrix();
         MatrixXd hess = A_tilde.transpose() * slack_mat * slack_mat * A_tilde/t;
-        MatrixXd inv_hess = hess.inverse();
+        VectorXd sol = hess.colPivHouseholderQr().solve(grad);
 
-        VectorXd new_y = y - 0.5 * (inv_hess * grad);
+        VectorXd new_y = y - 0.5 * (sol);
         if ((prev_grad - grad).norm()/(prev_grad.norm() + 0.0000001) < 0.01){
             t *= 2;
         }

@@ -7,7 +7,8 @@ MatrixXd make_full_rank(MatrixXd mat){
     HouseholderQR <MatrixXd> qr(mat.cols(), mat.rows());
     qr.compute(mat.transpose());
     MatrixXd q = qr.householderQ();
-    MatrixXd r = q.inverse() * mat.transpose();
+    
+    MatrixXd r = q.colPivHouseholderQr().solve(mat.transpose());
  
     MatrixXd iden = MatrixXd::Identity(q.rows(), q.rows());
     MatrixXd new_r (q.rows(), q.rows());
@@ -180,7 +181,7 @@ z_result find_z(MatrixXd newA, VectorXd b, int x_dim){
             if (!lu.isInvertible()) continue;
             //create init with last entry as delta
             
-            init = eqA.inverse() * eqb;
+            init = eqA.colPivHouseholderQr().solve(eqb);
         } else {
             init = eqA.colPivHouseholderQr().solve(eqb);
         }
