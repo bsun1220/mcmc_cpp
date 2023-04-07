@@ -3,9 +3,9 @@
 class JohnWalk: public BarrierWalk{
 
     public:
-    float step_size{};
-    float max_iter{};
-    float grad_lim{};
+        float step_size{};
+        float max_iter{};
+        float grad_lim{};
         JohnWalk(float ss, float mi, float gl) : BarrierWalk(){
             step_size = ss;
             max_iter = mi;
