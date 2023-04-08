@@ -5,14 +5,14 @@ double HitAndRun::distance(VectorXd& x, VectorXd&y){
     return (x - y).norm();
 }
 
-double HitAndRun::binary_search(VectorXd direction, VectorXd&x){
+double HitAndRun::binary_search(VectorXd direction, VectorXd x){
 
     VectorXd farth = x + r * direction;
     double dist = 0; 
-    
+
     while(true){
         dist = distance(x, farth);
-        farth = x +  2 * dist * direction; 
+        farth = x + 2 * dist * direction; 
         if (!accept_reject(farth)){
             break; 
         }
@@ -21,7 +21,7 @@ double HitAndRun::binary_search(VectorXd direction, VectorXd&x){
     VectorXd right = farth;
     VectorXd mid = (x + farth)/2;
 
-    while (distance(left, right) > err){
+    while (distance(left, right) > err || ! accept_reject(mid)){
         mid = (left + right)/2; 
         if (accept_reject(mid)){
             left = mid; 

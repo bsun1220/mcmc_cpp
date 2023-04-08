@@ -27,5 +27,9 @@ VectorXd RandomWalk::generate_gaussian_rv(int d){
     for(int i = 0; i < d; i++){
         v(i) = generate_gaussian();
     }
-    return v;
+    return v/v.norm();
+}
+
+MatrixXd RandomWalk::generate_complete_walk(int num_steps, VectorXd x){
+    return MatrixXd::Zero(1,1);
 }

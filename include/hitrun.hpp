@@ -17,7 +17,7 @@ class HitAndRun: public RandomWalk{
 
         double distance(VectorXd& x, VectorXd&y);
 
-        double binary_search(VectorXd direction, VectorXd&x);
+        double binary_search(VectorXd direction, VectorXd x);
 
         MatrixXd generate_complete_walk(int num_steps, VectorXd x);
 
