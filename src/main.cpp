@@ -31,7 +31,7 @@ PYBIND11_MODULE(mcmc, m) {
     m.doc() = "pybind11 poly walk example";
     m.def("generate_walk", &generate_walk, "central function", 
     py::arg("A"), py::arg("b"), py::arg("walk_type"), py::arg("r"), py::arg("num_sim"), 
-    py::arg("step_size") = 0.1, py::arg("max_iter") = 250, py::arg("grad_lim") = 0.01, py::arg("ss") = 10000, 
+    py::arg("step_size") = 0.1, py::arg("max_iter") = 100, py::arg("grad_lim") = 0.01, py::arg("ss") = 10000, 
     py::arg("ts") = 0.00001, py::arg("te") =10000, py::arg("err") = 0.01);
 
 }
