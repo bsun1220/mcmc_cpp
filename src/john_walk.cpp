@@ -17,20 +17,25 @@ VectorXd JohnWalk::gradient_descent(VectorXd& x, float adj, int sim, float grad_
     MatrixXd A_x = slack.colPivHouseholderQr().solve(A);
     VectorXd term1 = VectorXd::Ones(A.rows());
 
-    while(sim--){
-        MatrixXd W = vect_pow(w_i, alpha).asDiagonal().toDenseMatrix();
+    MatrixXd W(A.rows(), A.rows());
+    VectorXd term2a (A.rows());
+    VectorXd term2b (A.rows());
+    VectorXd term2 (A.rows());
+    VectorXd term3 (A.rows());
+    VectorXd gradient (A.rows());
 
-        VectorXd term2a = vect_pow(w_i, alpha - 1);
-    
-        VectorXd term2b = (A_x * (A_x.transpose() * W * A_x).inverse() * A_x.transpose()).diagonal();
-    
-        VectorXd term2 (A.rows());
+    while(sim--){
+        W = vect_pow(w_i, alpha).asDiagonal().toDenseMatrix();
+
+        term2a = vect_pow(w_i, alpha - 1);
+        term2b = (A_x * (A_x.transpose() * W * A_x).inverse() * A_x.transpose()).diagonal();
+
         for(int i = 0; i < A.rows(); i++){
             term2(i) = term2a(i) * term2b(i);
         }
-        VectorXd term3 = beta * vect_pow(w_i, -1);
+        term3 = beta * vect_pow(w_i, -1);
         
-        VectorXd gradient = term1 - term2 - term3;
+        gradient = term1 - term2 - term3;
         if(gradient.norm() < grad_lim){
             break;
         }

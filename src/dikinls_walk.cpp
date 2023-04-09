@@ -19,23 +19,28 @@ VectorXd DikinLSWalk::gradient_descent(VectorXd& x, float adj, int sim, float gl
 
     VectorXd term2 = (0.5 - 1/q) * VectorXd::Ones(A.rows()); 
 
+    MatrixXd W(A.rows(), A.rows()); 
+    VectorXd term1a (A.rows());
+    VectorXd term1b (A.rows());
+    VectorXd term1(A.rows());
+    VectorXd gradient (A.rows()); 
+    VectorXd proposal (A.rows()); 
+
     while(sim--){
-        MatrixXd W = vect_pow(w_i, alpha).asDiagonal().toDenseMatrix();
+        W = vect_pow(w_i, alpha).asDiagonal().toDenseMatrix();
 
-        VectorXd term1a = alpha * (vect_pow(w_i, alpha - 1));
-        VectorXd term1b = (A_x * (A_x.transpose() * W * A_x).inverse() * A_x.transpose()).diagonal();
+        term1a = alpha * (vect_pow(w_i, alpha - 1));
+        term1b = (A_x * (A_x.transpose() * W * A_x).inverse() * A_x.transpose()).diagonal();
 
-        VectorXd term1(A.rows());
         for(int i = 0; i < A.rows(); i++){
             term1(i) = term1a(i) * term1b(i);
         }
-
         
-        VectorXd gradient = term1 - term2;
+        gradient = term1 - term2;
         if(gradient.norm() < gl){
             break;
         }
-        VectorXd proposal = w_i + adj * gradient;
+        proposal = w_i + adj * gradient;
         if(proposal.minCoeff() < 0){
             break; 
         }
