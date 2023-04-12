@@ -53,7 +53,7 @@ VectorXd BarrierWalk::generate_weight(VectorXd& x){
 
 MatrixXd BarrierWalk::generate_hessian(VectorXd& x){
     MatrixXd weights = generate_weight(x).asDiagonal().toDenseMatrix();
-    MatrixXd slack_inv = generate_slack(x).asDiagonal().toDenseMatrix().inverse();
+    MatrixXd slack_inv = generate_slack(x).cwiseInverse().asDiagonal().toDenseMatrix();
 
     return A.transpose() * slack_inv * weights * slack_inv * A;
 }

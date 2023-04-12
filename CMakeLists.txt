@@ -9,5 +9,9 @@ find_package(pybind11)
 pybind11_add_module(${PROJECT_NAME} src/main.cpp src/barrier_walk.cpp src/central.cpp src/dikin_walk.cpp src/dikinls_walk.cpp src/john_walk.cpp src/vaidya_walk.cpp src/facial_reduction.cpp src/ball_walk.cpp src/random_walk.cpp src/hitrun.cpp)
 #add_executable(${PROJECT_NAME} src/test.cpp src/barrier_walk.cpp src/central.cpp src/dikin_walk.cpp src/dikinls_walk.cpp src/john_walk.cpp src/vaidya_walk.cpp src/facial_reduction.cpp src/ball_walk.cpp src/random_walk.cpp src/hitrun.cpp)
 
-
 target_link_libraries(${PROJECT_NAME} PUBLIC pybind11::module eigen ifopt::ifopt_ipopt) 
+
+install(TARGETS ${PROJECT_NAME}
+        COMPONENT python 
+        LIBRARY DESTINATION ${PYTHON_LIBRARY_DIR}
+)
