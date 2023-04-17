@@ -18,6 +18,14 @@ VectorXd convert_back(VectorXd z, VectorXd pb, MatrixXd M_inv, int x_dim){
 
 MatrixXd full_barrier_run(MatrixXd A, VectorXd b, BarrierWalk& walk,float r, int num_sim, double ss, double ts, double te){
     int x_dim = A.cols();
+
+    if (x_dim == 1){
+        walk.initialize(A, b, r);
+        VectorXd x = find_central_point(A, b, ss, ts, te);
+        MatrixXd results = walk.generate_complete_walk(num_sim, x);
+        return results;
+    }
+
     problem_result fr = reduce_problem(A, b);
     if (fr.reduced){
         MatrixXd reduced_A = fr.reduced_A;
@@ -44,6 +52,12 @@ MatrixXd full_barrier_run(MatrixXd A, VectorXd b, BarrierWalk& walk,float r, int
 
 MatrixXd full_walk_run(MatrixXd A, VectorXd b, RandomWalk& walk,float r, int num_sim, double ss, double ts, double te){
     int x_dim = A.cols();
+    if (x_dim == 1){
+        walk.initialize(A, b, r);
+        VectorXd x = find_central_point(A, b, ss, ts, te);
+        MatrixXd results = walk.generate_complete_walk(num_sim, x);
+        return results;
+    }
 
     problem_result fr = reduce_problem(A, b);
     if (fr.reduced){

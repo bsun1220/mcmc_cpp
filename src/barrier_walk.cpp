@@ -22,18 +22,19 @@ bool BarrierWalk::accept_reject(VectorXd& z){
 float BarrierWalk::generate_gaussian(){
     random_device rd;
     mt19937 gen(rd());
-    uniform_real_distribution<> dis(0.0, 1.0);
+    normal_distribution<float> dis(0.0, 1.0);
 
     float r1 = dis(gen);
-    float r2 = dis(gen);
-
-    return sqrt(-2.0 * log(r1)) * cos((2.0 * M_PI * r2));
+    return r1;
 }
 
 VectorXd BarrierWalk::generate_gaussian_rv(int d){
     VectorXd v(d);
+    random_device rd;
+    mt19937 gen(rd());
+    normal_distribution<double> dis(0.0, 1.0);
     for(int i = 0; i < d; i++){
-        v(i) = generate_gaussian();
+        v(i) = dis(gen);
     }
     return v;
 }
