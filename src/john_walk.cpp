@@ -7,14 +7,15 @@ VectorXd JohnWalk::vect_pow(VectorXd& x, float alpha){
     return x;
 }
 
-VectorXd JohnWalk::gradient_descent(VectorXd& x, float adj, int sim, float grad_lim){
+void JohnWalk::gradient_descent(VectorXd& x, float adj, int sim, float grad_lim){
     float alpha = 1 - 1/(log2(2 * A.rows() / A.cols()));
     float beta = (double)A.cols() / (2 * A.rows());
 
     VectorXd w_i = VectorXd::Ones(A.rows()); 
-    MatrixXd slack = generate_slack(x).asDiagonal().toDenseMatrix();
+    generate_slack(x);
+    MatrixXd slack_mat = slack.asDiagonal().toDenseMatrix();
 
-    MatrixXd A_x = slack.colPivHouseholderQr().solve(A);
+    MatrixXd A_x = slack_mat.colPivHouseholderQr().solve(A);
     VectorXd term1 = VectorXd::Ones(A.rows());
 
     MatrixXd W(A.rows(), A.rows());
@@ -42,14 +43,13 @@ VectorXd JohnWalk::gradient_descent(VectorXd& x, float adj, int sim, float grad_
         w_i = w_i - adj * gradient;
     }
 
-    return w_i;
+    weights = w_i.asDiagonal().toDenseMatrix();
 
     
 }
 
-VectorXd JohnWalk::generate_weight(VectorXd& x){
-    VectorXd w = gradient_descent(x, step_size, max_iter, grad_lim);
-    return w;
+void JohnWalk::generate_weight(VectorXd& x){
+    gradient_descent(x, step_size, max_iter, grad_lim);
 }
 
 void JohnWalk::printType(){

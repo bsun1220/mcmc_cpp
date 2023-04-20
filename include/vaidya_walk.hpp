@@ -3,6 +3,8 @@
 class VaidyaWalk: public BarrierWalk{
 
     public:
+
+        MatrixXd dhess {};
         VaidyaWalk() : BarrierWalk(){}
 
         void initialize(MatrixXd A_p, VectorXd b_p, float r){
@@ -14,8 +16,7 @@ class VaidyaWalk: public BarrierWalk{
             BarrierWalk::set_ts(ts);
             BarrierWalk::set_td(td);
         }
-        VectorXd generate_weight(VectorXd& x);
-        VectorXd generate_dikin_weight(VectorXd& x);
-        MatrixXd generate_dikin_hessian(VectorXd& x);
+        void generate_weight(VectorXd& x);
+        void generate_dikin_hessian(VectorXd& x);
         void printType();
 };

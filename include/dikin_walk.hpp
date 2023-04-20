@@ -16,7 +16,7 @@ class DikinWalk: public BarrierWalk{
             set_ts(ts);
             set_td(td);
         }
-        VectorXd generate_weight(VectorXd& x);
+        void generate_weight(VectorXd& x);
 
         void printType();
 };

@@ -1,23 +1,25 @@
 #include "vaidya_walk.hpp"
 
-VectorXd VaidyaWalk::generate_weight(VectorXd& x){
-    MatrixXd hess = generate_dikin_hessian(x).inverse();
-    MatrixXd slack_inv = BarrierWalk::generate_slack(x).cwiseInverse().asDiagonal().toDenseMatrix();
+void VaidyaWalk::generate_weight(VectorXd& x){
+    generate_dikin_hessian(x);
+    MatrixXd hess_inv = dhess.inverse();
+    MatrixXd slack_inv = slack.cwiseInverse().asDiagonal().toDenseMatrix();
 
-    MatrixXd weights_mat = slack_inv * A * hess * A.transpose() * slack_inv;
+    MatrixXd weights_mat = slack_inv * A * hess_inv * A.transpose() * slack_inv;
 
-    VectorXd weights = weights_mat.diagonal();
+    VectorXd wi = weights_mat.diagonal();
 
 
-    for(int i = 0; i < weights.rows(); i++){
-        weights(i) = weights(i) + (double)(A.cols()/A.rows());
+    for(int i = 0; i < wi.rows(); i++){
+        wi(i) = wi(i) + (double)(A.cols()/A.rows());
     }
-    return weights;
+    weights = wi.asDiagonal().toDenseMatrix();
 }
 
-MatrixXd VaidyaWalk::generate_dikin_hessian(VectorXd& x){
-    MatrixXd slack_inv = generate_slack(x).cwiseInverse().asDiagonal().toDenseMatrix();
-    return A.transpose() * slack_inv * slack_inv * A;
+void VaidyaWalk::generate_dikin_hessian(VectorXd& x){
+    generate_slack(x);
+    MatrixXd slack_inv = slack.cwiseInverse().asDiagonal().toDenseMatrix();
+    dhess = A.transpose() * slack_inv * slack_inv * A;
 }
 
 void VaidyaWalk::printType(){

@@ -23,8 +23,8 @@ class JohnWalk: public BarrierWalk{
         }
 
         VectorXd vect_pow(VectorXd& x, float alpha);
-        VectorXd gradient_descent(VectorXd& x, float adj, int sim, float grad_lim);
-        VectorXd generate_weight(VectorXd& x);
+        void gradient_descent(VectorXd& x, float adj, int sim, float grad_lim);
+        void generate_weight(VectorXd& x);
 
         void printType();
 };
