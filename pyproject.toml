@@ -1,10 +1,14 @@
 [build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
 
-requires = [
-    "setuptools>=42",
-    "scikit-build>=0.13",
-    "cmake>=3.18",
-    "ninja",
+[project]
+name = "mcmc"
+version = "1.0.2"
+description="Open Source Implementation of MCMC Polytope Walks"
+authors = [
+  { name = "Benny Sun", email = "benny.sun@duke.edu" },
 ]
-build-backend = "setuptools.build_meta"
-
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]

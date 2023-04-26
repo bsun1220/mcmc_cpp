@@ -7,10 +7,9 @@ set(CMAKE_CXX_FLAGS "-O2")
 add_subdirectory(external/eigen)
 include_directories(include)
 find_package(ifopt)
-#xfind_package (Python COMPONENTS Interpreter Development)
+#find_package (Python COMPONENTS Interpreter Development)
 
-#set(PYTHON_LIBRARY_DIR "~/opt/anaconda3/lib/python3.9/site-packages") 
-#set(PYTHON_LIBRARY_DIR "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-install") 
+#set(PYTHON_LIBRARY_DIR "./lib/python3.9/site-packages/") 
 #set(MUQ_USE_PYTHON ON)
 #set(PYTHON_EXECUTABLE "~/opt/anaconda3/bin/python")
 
