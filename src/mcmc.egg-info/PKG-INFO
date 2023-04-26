@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mcmc
+Version: 1.0.2
+Summary: Open Source Implementation of MCMC Polytope Walks
+Author: Benny Sun
+License: MIT
+Requires-Python: >=3.7

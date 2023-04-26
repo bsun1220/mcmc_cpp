@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bennysun/Code/mcmc_cpp/external/eigen/unsupported/test/autodiff_scalar.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "autodiff_scalar_2"
+	}
+}

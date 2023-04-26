@@ -1,0 +1,29 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build/external/eigen/lapack",
+	"dir-cur-src" : "/Users/bennysun/Code/mcmc_cpp/external/eigen/lapack",
+	"dir-top-bld" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build",
+	"dir-top-src" : "/Users/bennysun/Code/mcmc_cpp",
+	"exports" : [],
+	"include-dirs" : 
+	[
+		"external/eigen/lapack",
+		"/Users/bennysun/Code/mcmc_cpp/external/eigen/lapack",
+		"/Users/bennysun/Code/mcmc_cpp/external/eigen",
+		"external/eigen",
+		"/Users/bennysun/Code/mcmc_cpp/external/eigen/lapack/../blas"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : 
+	[
+		"/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build/external/eigen/blas/CMakeFiles/eigen_blas.dir"
+	],
+	"module-dir" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build/external/eigen/lapack",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}

@@ -1,0 +1,25 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build/external/eigen/blas",
+	"dir-cur-src" : "/Users/bennysun/Code/mcmc_cpp/external/eigen/blas",
+	"dir-top-bld" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build",
+	"dir-top-src" : "/Users/bennysun/Code/mcmc_cpp",
+	"exports" : [],
+	"include-dirs" : 
+	[
+		"external/eigen/blas",
+		"/Users/bennysun/Code/mcmc_cpp/external/eigen/blas",
+		"/Users/bennysun/Code/mcmc_cpp/external/eigen",
+		"external/eigen"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : [],
+	"module-dir" : "/Users/bennysun/Code/mcmc_cpp/_skbuild/macosx-10.16-x86_64-3.9/cmake-build/external/eigen/blas",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}

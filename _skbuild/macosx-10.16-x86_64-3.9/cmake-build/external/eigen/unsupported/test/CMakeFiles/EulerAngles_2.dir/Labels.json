@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bennysun/Code/mcmc_cpp/external/eigen/unsupported/test/EulerAngles.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "EulerAngles_2"
+	}
+}
